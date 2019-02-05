@@ -10,6 +10,7 @@ class ExcelReader(object):
         self.sheet = self.workbook.sheet_by_index(sheet_no)
         
     def getData(self, filter):
+        flag = False
         for row in range(self.sheet.nrows):
             if self.sheet.cell(row, 0).value == filter:
                 s_index = row + 1
@@ -27,3 +28,7 @@ class ExcelReader(object):
             d = {key: d[key] for key in [key for key in d.keys() if key ]}
             dict_list.append(d)
         return dict_list   
+
+
+e = ExcelReader(r"D:\Workspace\AutomationFramework-Java\src\test\resources\testData\data.xlsx", 0)
+print(e.getData("Add Admin"))
