@@ -4,15 +4,16 @@ from _sqlite3 import Row
 
 class ExcelReader(object):
     
-    def __init__(self, filename, sheet_no):
+    def __init__(self, filename, filter, headers=True, sheet_no=0):
         self.filename = filename
         self.workbook = xlrd.open_workbook(filename)
+        self.filter = filter
         self.sheet = self.workbook.sheet_by_index(sheet_no)
         
-    def getData(self, filter):
+    def __call__(self):
         flag = False
         for row in range(self.sheet.nrows):
-            if self.sheet.cell(row, 0).value == filter:
+            if self.sheet.cell(row, 0).value == self.filter:
                 s_index = row + 1
                 flag = True
             elif flag and self.sheet.cell(row, 0).value == "END":
@@ -30,5 +31,4 @@ class ExcelReader(object):
         return dict_list   
 
 
-e = ExcelReader(r"D:\Workspace\AutomationFramework-Java\src\test\resources\testData\data.xlsx", 0)
-print(e.getData("Add Admin"))
+
