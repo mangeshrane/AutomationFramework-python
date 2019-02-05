@@ -5,5 +5,5 @@ class CSVReader(object):
     def __init__(self, filename):
         self.f = open(filename)
         
-    def getData(self):
+    def __call__(self):
         pass

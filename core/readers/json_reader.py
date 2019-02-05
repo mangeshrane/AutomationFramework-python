@@ -1,0 +1,4 @@
+
+
+class JSONReader(object):
+    pass
