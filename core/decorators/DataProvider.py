@@ -16,12 +16,13 @@ def data(d):
     return wrap
 
 
-def dataFile(filename, headers=True):
+def dataFile(filename, filter, headers=True):
     if str(filename).endswith("csv"):
         dataset = CSVReader(filename, headers)
     elif str(filename).endswith("xls") or str(filename).endswith("xlsx"):
-        dataset = ExcelReader(filename, headers)
+        dataset = ExcelReader(filename, filter, headers)()
         edata = []
+        print(dataset)
         for data in dataset:
             edata.append(data.keys())
     elif str(filename).endswith("json"):
@@ -30,13 +31,11 @@ def dataFile(filename, headers=True):
         raise UnsupportedFileFormat("Datafile must be csv, xls or json")
     
     def wrap(f):
-
         def wrapper(*margs, **kwargs):
             def parser(func, args):
                 func(*args)
-            
-            for data in dataset:
-                data.insert(0, margs)
+            edata.insert(0, margs)
+            for data in edata:
                 parser(f, data)
         return wrapper
     return wrap

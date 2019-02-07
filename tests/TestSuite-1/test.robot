@@ -9,3 +9,6 @@ TC-01: Test case
 	
 TC-02: test case 2
 	printData
+	
+TC-03: test case 3
+	printDatas
