@@ -1,5 +1,5 @@
 import xlrd
-from _sqlite3 import Row
+from pathlib import Path
 
 
 class ExcelReader(object):
@@ -32,3 +32,4 @@ class ExcelReader(object):
 
 
 
+print(Path(__file__).parent.resolve())

@@ -1,14 +1,16 @@
-from functools import wraps
 from core.readers.csv_reader import CSVReader
 from core.readers.excel_reader import ExcelReader
 from core.readers.json_reader import JSONReader
 
-def data(dataset):
+def data(d):
     def wrap(f):
-        def parser(func, args):
-            func(*args)
-        def wrapper(*args, **kwargs):
-            for data in dataset:
+        
+        def wrapper(*margs, **kwargs):
+            def parser(func, args):
+                func(*args)
+            
+            for data in d:
+                data.insert(0, margs)
                 parser(f, data)
         return wrapper
     return wrap
@@ -19,6 +21,9 @@ def dataFile(filename, headers=True):
         dataset = CSVReader(filename, headers)
     elif str(filename).endswith("xls") or str(filename).endswith("xlsx"):
         dataset = ExcelReader(filename, headers)
+        edata = []
+        for data in dataset:
+            edata.append(data.keys())
     elif str(filename).endswith("json"):
         dataset = JSONReader(filename, headers)
     else:
@@ -32,11 +37,6 @@ def dataFile(filename, headers=True):
                 parser(f, data)
         return wrapper
     return wrap
-
-@data([[1, 2],[3, 2],[3, 3]])
-def test(k, l):
-    print("Got parameter ", k, l)
-
 
 class UnsupportedFileFormat(Exception):
     pass
