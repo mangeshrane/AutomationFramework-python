@@ -30,10 +30,13 @@ def dataFile(filename, headers=True):
         raise UnsupportedFileFormat("Datafile must be csv, xls or json")
     
     def wrap(f):
-        def parser(func, args):
-            func(*args)
-        def wrapper(*args, **kwargs):
+
+        def wrapper(*margs, **kwargs):
+            def parser(func, args):
+                func(*args)
+            
             for data in dataset:
+                data.insert(0, margs)
                 parser(f, data)
         return wrapper
     return wrap
