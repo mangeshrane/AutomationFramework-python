@@ -5,14 +5,15 @@ Created on Jan 24, 2019
 '''
 import os
 
-
 root = None
-
 
 class FileManager(object):
     '''
-    classdocs
+    File Manager 
     '''
-    
-    def create_folder_structure(self, folders_string):
+    @staticmethod
+    def create_folder_structure(folders_string):
         os.makedirs(folders_string)
+    
+    
+    

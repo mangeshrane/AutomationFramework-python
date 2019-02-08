@@ -16,15 +16,13 @@ def data(d):
     return wrap
 
 
-def dataFile(filename, filter, headers=True):
+def dataFile(filename, data_filter, headers=True):
     if str(filename).endswith("csv"):
         dataset = CSVReader(filename, headers)
     elif str(filename).endswith("xls") or str(filename).endswith("xlsx"):
-        dataset = ExcelReader(filename, filter, headers)()
+        dataset = ExcelReader.get_data_map(filename, data_filter, headers)
         edata = []
-        print(dataset)
-        for data in dataset:
-            edata.append(data.keys())
+        edata = [ data.keys() for data in dataset ]
     elif str(filename).endswith("json"):
         dataset = JSONReader(filename, headers)
     else:

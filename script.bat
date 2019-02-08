@@ -1,2 +1,6 @@
-for /f "tokens=*" %a in ('dir *.py /s /b') do set PYTHONPATH=%PYTHONPATH%;%~fa 
+@echo off 
+set PYTHONPATH
 
+for /F "tokens=*" A IN ('dir /s /b *.py') do if not defined PYTHONPATH (set "PYTHONPATH=%%A") else (set "PYTHONPATH=!PYTHONPATH!;%%A")
+
+@echo %PYTHONPATH%
