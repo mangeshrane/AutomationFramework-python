@@ -1,5 +1,4 @@
 import xlrd
-from pathlib import Path
 
 
 class ExcelReader(object):

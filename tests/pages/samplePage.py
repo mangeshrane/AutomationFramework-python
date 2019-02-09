@@ -21,6 +21,6 @@ class MyClass(object):
     def printData(self, a, b):
         print("Got " + str(a) + " " + str(b))
         
-    @dataFile(r"D:\Workspace\AutomationFramework-Java\src\test\resources\testData\data.xlsx", filter="Add Customer")
+    @dataFile(r"C:\Users\Mangesh\Downloads\data.xlsx", data_filter="Add Customer")
     def printDatas(self, *args):
         print("Got " + str(args))
