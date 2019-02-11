@@ -1,6 +1,6 @@
-from core.readers.csv_reader import CSVReader
-from core.readers.excel_reader import ExcelReader
-from core.readers.json_reader import JSONReader
+from core.data_providers.csv_reader import CSVReader
+from core.data_providers.excel_reader import ExcelReader
+from core.data_providers.json_reader import JSONReader
 
 def data(d):
     def wrap(f):

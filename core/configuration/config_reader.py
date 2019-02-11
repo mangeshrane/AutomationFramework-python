@@ -14,8 +14,8 @@ class Config(object):
         elif filename:
             self.filename = filename
         else:
-            self.filename = os.path.join(core.project_root, "config", "default.yml")
-        self._load_config(filename)
+            self.filename = os.path.join(r'D:\Workspace\AutomationProject', "config", "default.yml")
+        self._load_config(self.filename)
 
     def _load_config(self, filename):
         config_yaml = open(filename, 'r')

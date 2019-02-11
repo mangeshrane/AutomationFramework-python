@@ -1,12 +1,7 @@
-import pytest
-import unittest
-from core.decorators.DataProvider import data
-
-import ptest
 
 
+from tests.pages.LoginPage import LoginPage
+from selenium import webdriver
 
-    
-@unittest.expectedFailure
-def test_default_size(color):
-    print(color)
+l = LoginPage(webdriver.Chrome(r"C:\Users\mrane\Downloads\chromedriver.exe"))
+print(LoginPage.loginBtn)
