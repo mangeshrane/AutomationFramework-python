@@ -28,7 +28,7 @@ def dataFile(filename, data_filter="", headers=True):
     elif str(filename).endswith("xls") or str(filename).endswith("xlsx"):
         dataset = ExcelReader.get_data_map(filename, data_filter, headers)
     elif str(filename).endswith("json"):
-        dataset = JSONReader(filename, headers)
+        dataset = JSONReader.get_data_map(filename)
     else:
         raise UnsupportedFileFormat("Datafile must be csv, xls or json")
     
