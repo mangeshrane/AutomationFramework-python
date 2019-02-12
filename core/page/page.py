@@ -12,8 +12,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
+from abc import ABC, abstractmethod
 
-class Page(object):
+class Page(ABC):
     
     """
     Base class that all page models can inherit from
@@ -25,31 +26,17 @@ class Page(object):
     def _load(self, url):
         url = self.base_url + url
         self.driver.get(url)
-
+    
+    @abstractmethod
     def load(self):
-        self._load(self.url)
-
+        pass
+    
+    @abstractmethod
     def is_loaded(self):
-        return self.driver.current_url == (self.base_url + self.url)
+        pass
 
     def run_script(self, src):
         return self.driver.execute_script(src)
-
-    def send_keys(self, loc, value, clear_first=True, click_first=True):
-        try:
-            if click_first:
-                self.find_element(loc).click()
-            if clear_first:
-                self.find_element(loc).clear()
-            self.find_element(loc).send_keys(value)
-        except AttributeError:
-            print('{0} page does not have {0} locator'.format(self, loc))
-
-    def fill_field(self, loc, value):
-        self.find_element(loc).send_keys(value)
-
-    def click_element(self, loc):
-        self.find_element(loc).click()
 
     def click_and_hold(self, element):
         loc = self.find_element(element)

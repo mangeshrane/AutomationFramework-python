@@ -2,8 +2,11 @@ import csv
 
 class CSVReader(object):
     
-    def __init__(self, filename):
-        self.f = open(filename)
-        
-    def __call__(self):
+    def __init__(self):
         pass
+        
+    @staticmethod
+    def get_data_map(filename, header=[]):
+        with open(filename) as csvfile:
+            reader = csv.DictReader(csvfile, fieldnames=header)
+            return list(reader)

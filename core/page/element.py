@@ -18,7 +18,6 @@ class Element(object):
         self._locator = locator
     
     def __get__(self, instance, owner):
-        print(instance)
         return instance.driver.find_element(self._by, self._locator)
     
     def __set__(self, instance, name):
@@ -26,3 +25,5 @@ class Element(object):
     
     def __delete__(self):
         pass
+    
+    
