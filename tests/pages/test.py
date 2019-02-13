@@ -8,9 +8,10 @@ from core.decorators.expect import expect_exception
 from core.decorators.DataProvider import data, dataFile
 from core.decorators.test import Test
 
-# driver = webdriver.Chrome(r"C:\Users\mrane\Downloads\chromedriver.exe")
-# login = CreatePage.get(LoginPage, driver)
-# login.loginBtn.send_keys("selenium")
+driver = webdriver.Chrome(r"C:\Users\mrane\Downloads\chromedriver.exe")
+login = CreatePage.get(LoginPage, driver)
+login.loginBtn.send_keys("selenium")
+login.accept_alert()
 
 
 class test(unittest.TestCase):
@@ -37,7 +38,6 @@ class test(unittest.TestCase):
     
     
     @dataFile(r"D:\Workspace\AutomationFramework-Java\src\test\resources\testData\data.xlsx", "Add Customer")
-    @Test
     def test_case_1(self, *args):
         print("test case 1", args)
     

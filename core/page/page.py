@@ -13,6 +13,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
 from abc import ABC, abstractmethod
+from core.page.element import Element
+from builtins import str
 
 class Page(ABC):
     
@@ -21,6 +23,7 @@ class Page(ABC):
     """
     def __init__(self, driver, implicit_wait=10):
         self.base_url = CONFIG.get("application.url")
+        super().__init__(driver)
         self.driver = driver
 
     def _load(self, url):
@@ -41,18 +44,17 @@ class Page(ABC):
     def click_and_hold(self, element):
         loc = self.find_element(element)
         ActionChains(self.driver).click_and_hold(loc).perform()
-        ActionChains(self.driver).release(loc).perform()
 
-    def select_option(self, select_field, select_option, select_method = 'label'):
-        if type(select_field) is WebElement:
+    def select_option(self, select_field, select_option, select_method='label'):
+        if isinstance(select_field, Element):
             select = Select(select_field)
-        else:
-            select = Select(self.find_element(select_field))
+        elif isinstance(select_field, str):
+            select = Select(self.driver.find_element(select_field))
         if 'label' == select_method:
             select.select_by_visible_text(select_option)
-        if 'value' == select_method:
+        elif 'value' == select_method:
             select.select_by_value(select_option)
-        if 'index' == select_method:
+        elif 'index' == select_method:
             select.select_by_index(select_option)
 
     def page_should_contain(self, string):
@@ -78,25 +80,21 @@ class Page(ABC):
         return element_list[index - 1]
 
     def go_to_link(self, link_name):
-        locator = (By.LINK_TEXT, link_name)
-        self.click_element(locator)
+        locator = Element(By.LINK_TEXT, link_name)
+        locator.click()
 
-    def submit_form(self,loc):
-        self.find_element(loc).submit()
+    def upload_file(self, element, filepath):
+        element.send_keys(filepath)
 
-    def uplaod_file(self, file_path, loc):
-        self.find_element(loc).send_keys(file_path)
-
-    def wait_till_visible(self, by, loc, wait_time = 10):
-        WebDriverWait(self.driver, wait_time).until(EC.visibility_of_element_located(by, loc))
-
-    def accept_alert(self):
+    def accept_alert(self, wait=CONFIG.get("webdriver.wait.short")):
         try:
-            WebDriverWait(self.driver, 10).until(EC.alert_is_present(), 'Timed out waiting for confirmation popup to appear.')
+            WebDriverWait(self.driver, wait).until(EC.alert_is_present(), 'Timed out waiting for confirmation popup to appear.')
             alert = self.driver.switch_to_alert()
             alert.accept()
+            return True
         except TimeoutException:
             print('No alert accepted')
+            return False
 
     def press_enter_key(self, loc):
         if type(loc) is WebElement:
@@ -104,74 +102,35 @@ class Page(ABC):
         else:
             self.find_element(loc).send_keys(Keys.ENTER)
 
-    def clear_and_send_value(self, value, loc):
-        if type(loc) is not WebElement:
-            element = self.find_element(loc)
+    def clear_and_send_keys(self, element, keys):
+        if isinstance(element, Element):
+            pass
         else:
-            element = loc
+            raise ValueError("Needed element of type Element")
         element.click()
         element.clear()
-        element.send_keys(value)
-
-    def close_message_popup(self):
-        if self.is_element_present(self.system_message_dialog):
-            self.click_element(self.system_message_dialog)
-            self.click_element(self.system_message_dialog_close_link)
+        element.send_keys(keys)
 
     def is_element_present(self, loc):
-        try: self.find_element(loc)
-        except NoSuchElementException: return False
+        try: 
+            self.find_element(loc)
+        except NoSuchElementException: 
+            return False
         return True
 
-    def link_not_exists(self, link):
-        assert False == self.is_element_present(link)
-
-    def link_exists(self, link):
-        assert False == self.is_element_present(link)
-
-    def get_content_value(self, loc):
-        if type(loc) is not WebElement:
-            element = self.find_element(loc)
-        else:
-            element = loc
+    def get_content_value(self, element):
         return element.get_attribute('value')
 
-    def get_content_text(self, loc):
-        if type(loc) is not WebElement:
-            element = self.find_element(loc)
-        else:
-            element = loc
+    def get_content_text(self, element):
         return element.text
-
-    def check_dropdown_options(self, option_list, loc):
-        select = Select(self.find_element(loc))
-        options_text = []
-        for opt in select.options:
-            options_text.append(opt.text.encode())
-        for option in option_list:
-            assert option in options_text, "Actaul/Obtained list :- {0}/{1}".format(option, options_text)
-
-    def get_content_text_list(self, loc):
-        elements = self.find_elements(loc)
-        text_list = []
-        for element in elements:
-            text_list.append(element.text)
-        return text_list
 
     def go_back(self):
         self.driver.back()
 
-    def dismiss_alert(self):
+    def dismiss_alert(self, wait=CONFIG.get("webdriver.wait.short")):
         try:
-            WebDriverWait(self.driver, 3).until(EC.alert_is_present(), 'Timed out waiting for confirmation popup to appear.')
+            WebDriverWait(self.driver, wait).until(EC.alert_is_present(), 'Timed out waiting for confirmation popup to appear.')
             alert = self.driver.switch_to_alert()
             alert.dismiss()
         except TimeoutException:
             print('No alert accepted')
-
-    def clear(self , loc):
-        element = self.find_element(loc)
-        element.clear()
-
-    def page_refresh(self):
-        self.driver.refresh()

@@ -1,4 +1,6 @@
 import json
+from collections import namedtuple
+from builtins import staticmethod
 
 class JSONReader(object):
     
@@ -8,4 +10,7 @@ class JSONReader(object):
             raw = f.read()
         j = json.loads(raw)
         return j
-            
+    
+    @staticmethod
+    def json2obj(name, data): 
+        return json.loads(data, object_hook=lambda d: namedtuple(name, d.keys())(*d.values()))
