@@ -1,12 +1,12 @@
 from core.decorators.stacktrace import StackTrace
-from functools import wraps
 import sys
 
-def Test(**kw):
+k = ""
+
+def Test(*args, tag=None):
     def entangle(func):
-        @wraps(func)
         def wrapper(*args, **kwargs):
-            st = StackTrace(**kw)
+            st = StackTrace()
             sys.settrace(st)
             try:
                 return func(*args, **kwargs)

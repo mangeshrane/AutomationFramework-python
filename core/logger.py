@@ -5,6 +5,9 @@ Created on Feb 13, 2019
 '''
 import logging
 
-log = logging.Logger("FRAMEWORK")
-log.setLevel(logging.INFO)
-log.addHandler(logging.StreamHandler().setFormatter(logging.Formatter("%(name)s - %(levelname)s - %(asctime)s - %(message)s")))
+FORMAT = '%(name)s %(asctime)s %(filename)s L %(lineno)d %(funcName)s:  %(message)s'
+logging.basicConfig(format=FORMAT)
+log = logging.getLogger('CORE')
+
+
+

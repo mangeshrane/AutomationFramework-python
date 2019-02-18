@@ -3,5 +3,16 @@ application:
     password: password
     
 webdriver:
+    chrome:
+        driver: C:\Users\mrane\Downloads\chromedriver.exe
+        arguments: ["start-maximized", "--disable-extensions"]
+    firefox:
+        driver: path
+        preferences:
+            browser.download.dir: H:\Downloads
+            browser.download.manager.showWhenStarting: False
     wait:
         short: 10
+        
+tests:
+    browser: chrome

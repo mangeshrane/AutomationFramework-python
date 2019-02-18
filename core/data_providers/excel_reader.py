@@ -12,7 +12,6 @@ class ExcelReader(object):
         workbook = xlrd.open_workbook(filename)
         data_filter = data_filter
         sheet = workbook.sheet_by_index(sheet_no)
-        log.info("getting data from filename " + filename + " Sheet: " + sheet_no)
         
         flag = False
         for row in range(sheet.nrows):
