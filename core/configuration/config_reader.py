@@ -13,12 +13,13 @@ class Config(object):
         elif filename:
             self.filename = filename
         else:
-            self.filename = os.path.join(r'D:\Workspace\AutomationProject', "config", "default.yml")
+            self.filename = os.path.join(r'../..', "config", "default.yml")
         self._load_config(self.filename)
 
     def _load_config(self, filename):
         config_yaml = open(filename, 'r')
         self.yml_dict = yaml.load(config_yaml)
+        print(self.yml_dict)
         config_yaml.close()
 
     def get(self, key, default=None):
