@@ -3,6 +3,7 @@ Created on Feb 12, 2019
 
 @author: mrane
 '''
+from core.logger import log
 class StackTrace(object):
     def __init__(self, with_call=True, with_return=False,
                        with_exception=False, max_depth=-1):
@@ -35,6 +36,6 @@ class StackTrace(object):
                 ret.append(repr(arg[0]))
             ret.append('in %s line:%s'%(frame.f_code.co_filename, frame.f_lineno))
         if ret:
-            print("%s%s"%('  '*depth, '\t'.join([str(i) for i in ret])))
+            log.info("%s%s"%('  '*depth, '\t'.join([str(i) for i in ret])))
 
         return self
