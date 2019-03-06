@@ -1,4 +1,0 @@
-setupClass
-setup
-test case
-tearDown

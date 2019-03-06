@@ -1,5 +1,6 @@
 import os
 import yaml
+from os.path import dirname, abspath
 
 # import core.project_root
 
@@ -13,13 +14,13 @@ class Config(object):
         elif filename:
             self.filename = filename
         else:
-            self.filename = os.path.join(r'../..', "config", "default.yml")
+            print(dirname(dirname(abspath(__file__))))
+            self.filename = os.path.join(dirname(dirname(abspath(__file__))), "..", "config", "default.yml")
         self._load_config(self.filename)
 
     def _load_config(self, filename):
         config_yaml = open(filename, 'r')
         self.yml_dict = yaml.load(config_yaml)
-        print(self.yml_dict)
         config_yaml.close()
 
     def get(self, key, default=None):
