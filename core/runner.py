@@ -3,7 +3,7 @@
 '''
 core.runner -- shortdesc
 
-core.runner is a unittest test case runner
+core.runner is a pytest test case runner
 
 @author:     mrane
 '''
@@ -14,6 +14,7 @@ import os
 from optparse import OptionParser
 from unittest2.loader import TestLoader
 import unittest2
+import pytest
 
 __all__ = []
 __version__ = 0.1
@@ -46,9 +47,6 @@ def main(argv=None):
         parser.defaults['pattern'] = "test*.py"
         # process options
         (opts, args) = parser.parse_args(argv)
-        print(opts, args)
-        tests = TestLoader().discover(os.getcwd(), opts.pattern)
-        print(tests)
         if opts.verbose:
             print("verbosity level = %d" % opts.verbose)
         if opts.tags:
@@ -56,10 +54,7 @@ def main(argv=None):
         if opts.config:
             print("config = %s" % opts.config)
         
-        runner = unittest2.TextTestRunner()
-        runner.run(tests)
-        
-        print(opts.tags, opts)
+        pytest.main([os.getcwd(), "-v", "--html=results/report.html"], plugins=["core.reporter.plugin"])        
 
     except Exception as e:
         indent = len(program_name) * " "

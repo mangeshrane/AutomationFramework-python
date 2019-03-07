@@ -5,7 +5,7 @@ application:
 webdriver:
     chrome:
         driver: C:\Users\mrane\Downloads\chromedriver.exe
-        arguments: ["start-maximized", "--disable-extensions"]
+        arguments: ["start-maximized", "--disable-extensions", "--headless"]
     firefox:
         driver: path
         preferences:
@@ -13,6 +13,8 @@ webdriver:
             browser.download.manager.showWhenStarting: False
     wait:
         short: 10
+        long: 30
+    
         
 tests:
     browser: chrome
