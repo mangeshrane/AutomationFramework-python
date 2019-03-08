@@ -1,4 +1,9 @@
-import os
+import traceback
+import sys
+from contextlib import contextmanager
 
 
-print(os.getcwd())
+@contextmanager
+def simpleManager(n):
+    yield 
+    

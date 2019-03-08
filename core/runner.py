@@ -10,6 +10,7 @@ core.runner is a pytest test case runner
 
 import sys
 import os
+import json
 
 from optparse import OptionParser
 from unittest2.loader import TestLoader
@@ -54,7 +55,13 @@ def main(argv=None):
         if opts.config:
             print("config = %s" % opts.config)
         
-        pytest.main([os.getcwd(), "-v", "--html=results/report.html"], plugins=["core.reporter.plugin"])        
+        pytest.main([os.getcwd(), "-v", "--json-report", "--json-report-file=results/report.json", "--json-report-omit=[streams]", "--html=results/report.html", "--self-contained-html"], plugins=["core.reporter.plugin"])
+        
+        # Generate Extent reports
+        jsn = json.load(open("results/report.json"))
+        Summery_report = jsn['summery']
+        
+                
 
     except Exception as e:
         indent = len(program_name) * " "

@@ -56,3 +56,31 @@ CORE 2019-03-07 18:04:35,809 test_search.py L 22 test_search_1:  test case start
 CORE 2019-03-07 18:04:37,752 test_search.py L 24 test_search_1:  page initialized
 CORE 2019-03-07 18:04:39,051 test_search.py L 22 test_search_1:  test case started
 CORE 2019-03-07 18:04:39,375 test_search.py L 24 test_search_1:  page initialized
+CORE 2019-03-08 15:11:18,762 test_search.py L 22 test_search_1:  test case started
+CORE 2019-03-08 15:11:25,665 test_search.py L 24 test_search_1:  page initialized
+CORE 2019-03-08 15:11:40,813 test_search.py L 22 test_search_1:  test case started
+CORE 2019-03-08 15:11:49,985 test_search.py L 24 test_search_1:  page initialized
+CORE 2019-03-08 15:16:00,809 test_search.py L 22 test_search_1:  test case started
+CORE 2019-03-08 15:16:04,711 test_search.py L 24 test_search_1:  page initialized
+CORE 2019-03-08 15:16:05,735 test_search.py L 22 test_search_1:  test case started
+CORE 2019-03-08 15:16:06,930 test_search.py L 24 test_search_1:  page initialized
+CORE 2019-03-08 15:16:44,845 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-08 15:16:49,731 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-08 15:16:51,955 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-08 15:16:52,950 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-08 15:19:20,454 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-08 15:19:27,365 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-08 15:19:31,518 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-08 15:19:33,014 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-08 15:26:23,487 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-08 15:26:25,977 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-08 15:26:27,345 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-08 15:26:28,250 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-08 15:29:33,047 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-08 15:29:35,213 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-08 15:29:37,413 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-08 15:29:38,295 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-08 15:38:52,138 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-08 15:38:54,407 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-08 15:38:55,659 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-08 15:38:56,469 test_search.py L 25 test_search_1:  page initialized

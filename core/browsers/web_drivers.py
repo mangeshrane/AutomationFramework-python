@@ -7,6 +7,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from core.configuration import CONFIG
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
+import threading
 
 class WebDrivers(object):
 	
@@ -33,5 +34,12 @@ class WebDrivers(object):
 		driver = webdriver.Firefox(profile, executable_path=CONFIG.get("webdriver.firefox.driver"))
 		return driver
 	
-	def get(self):
-		return self.__getattribute__(CONFIG.get("tests.browser", "chrome"))
+	@staticmethod
+	def get():
+		if(threading.currentThread() in drivers):
+			return drivers[threading.current_thread()]
+		else:
+			drivers[threading.current_thread()] = WebDrivers.__getattribute__(WebDrivers(), CONFIG.get("tests.browser", "chrome"))
+			return drivers[threading.current_thread()]
+
+drivers = {}

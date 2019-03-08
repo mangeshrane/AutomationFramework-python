@@ -12,15 +12,16 @@ from core.logger import log
 @allure.feature("feature name")
 class TestSearch(Base):
     
-#     @allure.testcase("test case name")
-#     def test_search(self):
-#         page = CreatePage.get(SearchPage, self.driver)
-#         page.search("test")
-    
-    @data([("test",),("selenium",)])
-    def test_search_1(self, query):
-        log.info("test case started")
+    @allure.testcase("test case name")
+    def test_search(self):
         page = CreatePage.get(SearchPage, self.driver)
-        log.info("page initialized")
-        page.search(query)
-        assert self.driver.title.startswith(query), "title does not match"
+        page.search("test")
+        assert False
+    
+#     @data([("test",),("selenium",)])
+#     def test_search_1(self, query):
+#         log.info("test case started")
+#         page = CreatePage.get(SearchPage, self.driver)
+#         log.info("page initialized")
+#         page.search(query)
+#         assert self.driver.title.startswith(query), "title does not match"
