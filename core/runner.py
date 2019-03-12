@@ -59,7 +59,13 @@ def main(argv=None):
         
         # Generate Extent reports
         jsn = json.load(open("results/report.json"))
-        Summery_report = jsn['summery']
+        summary_report = jsn['summary']
+        print(summary_report)
+        
+        # DASHBOARD_VIEW
+        report_attrs = {"NAME": "VALUE"}
+        
+        
         
                 
 

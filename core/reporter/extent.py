@@ -880,9 +880,7 @@ class Template_mixin(object):
 class HTMLTestRunner(Template_mixin):
     """
     """
-    def __init__(self, stream=sys.stdout, verbosity=1, title=None, description=None):
-        self.stream = stream
-        self.verbosity = verbosity
+    def __init__(self, title=None, description=None):
         if title is None:
             self.title = self.DEFAULT_TITLE
         else:
@@ -892,32 +890,13 @@ class HTMLTestRunner(Template_mixin):
         else:
             self.description = description
 
-        self.startTime = datetime.datetime.now()
 
 
-    def get_report(self, test):
+    def get_report(self, test, result):
         "Run the given test case or test suite."
-        self.stopTime = datetime.datetime.now()
         self.generateReport(test, result)
         # print >>sys.stderr, '\nTime Elapsed: %s' % (self.stopTime-self.startTime)
-        print(sys.stderr, '\nTime Elapsed: %s' % (self.stopTime-self.startTime))
-
-
-    def sortResult(self, result_list):
-        # unittest does not seems to run in any particular order.
-        # Here at least we want to group them together by class.
-        rmap = {}
-        classes = []
-        for n,t,o,e in result_list:
-            cls = t.__class__
-            # if not rmap.has_key(cls):
-            if not cls in rmap:
-                rmap[cls] = []
-                classes.append(cls)
-            rmap[cls].append((n,t,o,e))
-        r = [(cls, rmap[cls]) for cls in classes]
-        return r
-
+        print(sys.stderr, '\nTime Elapsed: %s' % (self.json_report['duration']))
 
     def getReportAttributes(self, result):
         """
@@ -927,7 +906,8 @@ class HTMLTestRunner(Template_mixin):
         startTime = str(self.startTime)[:19]
         duration = str(self.stopTime - self.startTime)
         status = []
-        if result.success_count: status.append('Pass %s'    % result.success_count)
+        if result.success_count: 
+            status.append('Pass %s'    % result.success_count)
         if result.failure_count: status.append('Failure %s' % result.failure_count)
         if result.error_count:   status.append('Error %s'   % result.error_count  )
         if status:
@@ -1025,24 +1005,7 @@ class HTMLTestRunner(Template_mixin):
         section_name = []
         categoryTbody = []
         categoryActive = []
-        sortedResult = self.sortResult(result.result)
-        for cid, (cls, cls_results) in enumerate(sortedResult):
-            # subtotal for a class
-            np = nf = ne = 0
-            for n,t,o,e in cls_results:
-                if n == 0: np += 1
-                elif n == 1: nf += 1
-                else: ne += 1
-
-            # format class description
-            if cls.__module__ == "__main__":
-                name = cls.__name__
-            else:
-                name = "%s.%s" % (cls.__module__, cls.__name__)
-            doc = cls.__doc__ and cls.__doc__.split("\n")[0] or ""
-            # desc = doc and '%s: %s' % (name, doc) or name
-            desc = doc and '%s' % (name) or name
-
+        for test in self.json_report['tests']:
             # section中suite name
             sectionName = self.SECTION_SUIT_NAME % dict(
                 desc=desc,

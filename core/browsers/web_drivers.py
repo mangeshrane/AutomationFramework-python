@@ -35,11 +35,12 @@ class WebDrivers(object):
 		return driver
 	
 	@staticmethod
-	def get():
-		if(threading.currentThread() in drivers):
-			return drivers[threading.current_thread()]
+	def get(name): 
+		print("NODE.NODEID " + name)
+		if(name in drivers):
+			return drivers[name]
 		else:
-			drivers[threading.current_thread()] = WebDrivers.__getattribute__(WebDrivers(), CONFIG.get("tests.browser", "chrome"))
-			return drivers[threading.current_thread()]
+			drivers[name] = WebDrivers.__getattribute__(WebDrivers(), CONFIG.get("tests.browser", "chrome"))
+			return drivers[name]
 
 drivers = {}

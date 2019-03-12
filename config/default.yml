@@ -4,8 +4,8 @@ application:
     
 webdriver:
     chrome:
-        driver: C:\Users\mrane\Downloads\chromedriver.exe
-        arguments: ["start-maximized", "--disable-extensions", "--headless"]
+        driver: C:\chromedriver.exe
+        arguments: ["--disable-extensions"]
     firefox:
         driver: path
         preferences:
