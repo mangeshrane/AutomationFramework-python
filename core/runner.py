@@ -2,25 +2,20 @@
 # encoding: utf-8
 '''
 core.runner -- shortdesc
-
 core.runner is a pytest test case runner
 
 @author:     mrane
 '''
-
 import sys
 import os
-import json
 
 from optparse import OptionParser
-from unittest2.loader import TestLoader
-import unittest2
 import pytest
 
 __all__ = []
 __version__ = 0.1
 __date__ = '2019-02-19'
-__updated__ = '2019-02-19'
+__updated__ = '2019-03-13'
 
 DEBUG = 1
 TESTRUN = 0
@@ -40,35 +35,51 @@ def main(argv=None):
     try:
         # setup option parser
         parser = OptionParser(version=program_version_string)
+        parser.add_option("-d", "--testdir", dest="testdir", help="specifies the directory to run tests from [default: %default]", metavar="String")
         parser.add_option("-t", "--tags", dest="tags", help="tags to run tagged tests [default: %default]", metavar="TAGS")
         parser.add_option("-c", "--config", dest="config", help="Override default config file [default: %default]", metavar="FILE")
         parser.add_option("-p", "--pattern", dest="pattern", help="file patterns eg. *_test.py [default: test*.py]", metavar="String")
-        parser.add_option("-v", "--verbose", dest="verbose", action="count", help="set verbosity level [default: %default]")
+        parser.add_option("-n", "--threads", dest="threads", help="threads are used to run test as number of threads", metavar="String")
+        parser.add_option("-b", "--driver", dest="driver", help="override driver from config file", metavar="browserName")
+        parser.add_option("-r", "--report", dest="report", help="specify report generation", metavar="reportType")
         
+        # Default option values
         parser.defaults['pattern'] = "test*.py"
+        parser.defaults['testdir'] = "."
+        
+        # Base commmad
+        _cmd = []
+        
         # process options
         (opts, args) = parser.parse_args(argv)
-        if opts.verbose:
-            print("verbosity level = %d" % opts.verbose)
+        if opts.testdir:
+            _cmd.append(opts.testdir)
+            print("-- Using test directoty as " + opts.testdir)
         if opts.tags:
-            print("tags = %s" % opts.tags)
+            _cmd.append("--tags " + opts.tags)
+            print("-- tags = %s" % opts.tags)
         if opts.config:
-            print("config = %s" % opts.config)
+            os.environ['AUTO_CONFIG'] = opts.config
+            print("-- overriding default config file = %s" % opts.config)
+        if opts.threads:
+            _cmd.append("-n " + opts.threads)
+            print("-- Using number of threads :" + opts.threads)
+        if opts.driver:
+            os.environ["CORE.DRIVER"] = opts.driver
+            print("-- overriding default driver configuration: "  + opts.driver)
+        if opts.report:
+            if "html" in opts.report:
+                _cmd.append("--self-contained-html")
+                _cmd.append("--html=results/report.html")
+            if "json" in opts.report:
+                _cmd.append("--json-report")
+                _cmd.append("--json-report-file=results/report.json")
+            if "allure" in opts.report:
+                _cmd.append("--alluredir=results/")
         
-        pytest.main([os.getcwd(), "-v", "--json-report", "--json-report-file=results/report.json", "--json-report-omit=[streams]", "--html=results/report.html", "--self-contained-html"], plugins=["core.reporter.plugin"])
-        
-        # Generate Extent reports
-        jsn = json.load(open("results/report.json"))
-        summary_report = jsn['summary']
-        print(summary_report)
-        
-        # DASHBOARD_VIEW
-        report_attrs = {"NAME": "VALUE"}
-        
-        
-        
-                
-
+        # Running tests        
+        pytest.main(_cmd, plugins=["core.reporter.plugin"])
+    
     except Exception as e:
         indent = len(program_name) * " "
         sys.stderr.write(program_name + ": " + repr(e) + "\n")

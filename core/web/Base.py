@@ -15,12 +15,7 @@ class Base(unittest.TestCase):
     '''
     @pytest.fixture(scope="class")
     def web_driver(self, request):
-        self.driver = WebDrivers().get(request.node.nodeid + "::" + request.node.name)
+        self.driver = WebDrivers().get()
         request.cls.driver = self.driver
         yield
         self.driver.quit()
-    
-   
-
-
-

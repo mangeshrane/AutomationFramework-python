@@ -11,4 +11,4 @@ class TestCheck(Base):
     def test_search_2(self):
         page = CreatePage.get(SearchPage, self.driver)
         page.search("test")
-        assert False, "false"
+        assert False

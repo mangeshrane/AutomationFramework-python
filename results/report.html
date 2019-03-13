@@ -398,7 +398,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 12-Mar-2019 at 16:09:06 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
+    <p>Report generated on 13-Mar-2019 at 13:14:36 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -417,8 +417,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.2</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 15.17 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>3 tests ran in 13.30 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">2 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -433,11 +433,29 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_suites/test_check.py::TestCheck::test_search_2</td>
-          <td class="col-duration">7.69</td>
-          <td class="col-links"><a class="url" href="data:," target="_blank">URL</a> </td></tr>
+          <td class="col-duration">5.00</td>
+          <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div><div><img src="D:\Workspace\AutomationProject\core\..\results\tests_test_suites_test_check.py_TestCheck_test_search_2.png" alt="screenshot" style="width:304px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
-            <div><div>Additional HTML</div></div>
-            <div class="log">self = &lt;tests.test_suites.test_check.TestCheck testMethod=test_search_2&gt;<br/><br/>    def test_search_2(self):<br/>        page = CreatePage.get(SearchPage, self.driver)<br/>        page.search(&quot;test&quot;)<br/>&gt;       assert False, &quot;false&quot;<br/><span class="error">E       AssertionError: false</span><br/><span class="error">E       assert False</span><br/><br/>tests\test_suites\test_check.py:14: AssertionError<br/>---------------------------- Captured stdout setup -----------------------------<br/>NODE.NODEID tests/test_suites/test_check.py::TestCheck::TestCheck
-</div></td></tr></tbody></table></body></html>
+            <div class="log">[gw0] win32 -- Python 3.7.2 C:\Users\mrane\AppData\Local\Programs\Python\Python37-32\python.exe<br/><br/>self = &lt;tests.test_suites.test_check.TestCheck testMethod=test_search_2&gt;<br/><br/>    def test_search_2(self):<br/>        page = CreatePage.get(SearchPage, self.driver)<br/>        page.search(&quot;test&quot;)<br/>&gt;       assert False<br/><span class="error">E       AssertionError: assert False</span><br/><br/>tests\test_suites\test_check.py:14: AssertionError<br/></div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">tests/test_suites/test_search.py::TestSearch::test_search</td>
+          <td class="col-duration">7.45</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">[gw1] win32 -- Python 3.7.2 C:\Users\mrane\AppData\Local\Programs\Python\Python37-32\python.exe<br/><br/>self = &lt;tests.test_suites.test_search.TestSearch testMethod=test_search&gt;<br/><br/>    @allure.testcase(&quot;test case name&quot;)<br/>    def test_search(self):<br/>        page = CreatePage.get(SearchPage, self.driver)<br/>        page.search(&quot;test&quot;)<br/>&gt;       assert False<br/><span class="error">E       AssertionError: assert False</span><br/><br/>tests\test_suites\test_search.py:19: AssertionError<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_suites/test_search.py::TestSearch::test_search_1</td>
+          <td class="col-duration">6.36</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">------------------------------ Captured log call -------------------------------<br/>test_search.py              23 INFO     test case started
+test_search.py              25 INFO     page initialized
+test_search.py              23 INFO     test case started
+test_search.py              25 INFO     page initialized</div></td></tr></tbody></table></body></html>
