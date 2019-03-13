@@ -34,7 +34,6 @@ core/reporter/__init__.py
 core/reporter/extent.py
 core/reporter/plugin.py
 core/runner/__init__.py
-core/runner/__main__.py
 core/runner/runner.py
 core/web/Base.py
 core/web/__init__.py

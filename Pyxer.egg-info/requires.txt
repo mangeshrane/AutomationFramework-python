@@ -1,5 +1,7 @@
 pytest
 pytest-html
+pytest-forked
+pytest-metadata
 allure-pytest
 xlrd
 selenium

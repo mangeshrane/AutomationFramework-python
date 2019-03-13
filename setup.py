@@ -15,20 +15,19 @@ setup (
               'core.api',
               'core.browsers',
               'core.configuration',
-              'core.dataproviders',
+              'core.data_providers',
               'core.decorators',
               'core.file_manager',
               'core.page',
-              'core.reporter'
-              'core.runner'
+              'core.reporter',
+              'core.runner',
               'core.web'
               ],
-    install_requires = ['pytest', 'pytest-html', 'allure-pytest', 'xlrd', 'selenium', 'requests', 'pytest-xdist', 'pytest-json-report', 'PyYAML'],
+    install_requires = ['pytest', 'pytest-html', 'pytest-forked', 'pytest-metadata','allure-pytest', 'xlrd', 'selenium', 'requests', 'pytest-xdist', 'pytest-json-report', 'PyYAML'],
     python_requires='>=2.7', # any python greater than 2.7
-    test_suite="tests", # where to find tests
     entry_points = {
         'console_scripts': [
-            'pyxer = core.runner.__main__:main', # got to module convert.__main__ and run the method called main
+            'pyxer = core.runner.runner:main'
             ]
         }
     )

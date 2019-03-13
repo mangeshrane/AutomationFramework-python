@@ -28,7 +28,17 @@ def main(argv=None):
     program_version = "v0.1"
     program_build_date = "%s" % __updated__
 
+    logo = '''.______   ____    ____ ___   ___  _______ .______      
+|   _  \  \   \  /   / \  \ /  / |   ____||   _  \     
+|  |_)  |  \   \/   /   \  V  /  |  |__   |  |_)  |    
+|   ___/    \_    _/     >   <   |   __|  |      /     
+|  |          |  |      /  .  \  |  |____ |  |\  \----.
+| _|          |__|     /__/ \__\ |_______|| _| `._____|                                                     
+                                          Version : {0}
+    '''.format(__version__)
     program_version_string = '%%prog %s (%s)' % (program_version, program_build_date)
+
+    print(logo)
 
     if argv is None:
         argv = sys.argv[1:]
@@ -45,7 +55,7 @@ def main(argv=None):
         
         # Default option values
         parser.defaults['pattern'] = "test*.py"
-        parser.defaults['testdir'] = "."
+        parser.defaults['testdir'] = str(os.getcwd())
         
         # Base commmad
         _cmd = []
@@ -53,8 +63,9 @@ def main(argv=None):
         # process options
         (opts, args) = parser.parse_args(argv)
         if opts.testdir:
-            _cmd.append(opts.testdir)
-            print("-- Using test directoty as " + opts.testdir)
+            # _cmd.append(opts.testdir)
+            os.chdir(opts.testdir)
+            print("-- Using test directory as " + opts.testdir)
         if opts.tags:
             _cmd.append("--tags " + opts.tags)
             print("-- tags = %s" % opts.tags)
@@ -87,5 +98,5 @@ def main(argv=None):
         return 2
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
