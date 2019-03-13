@@ -22,8 +22,8 @@ TESTRUN = 0
 PROFILE = 0
 
 def main(argv=None):
-    '''Command line options.'''
-
+    
+    # PROGRAM DETAILS
     program_name = os.path.basename(sys.argv[0])
     program_version = "v0.1"
     program_build_date = "%s" % __updated__
@@ -63,8 +63,7 @@ def main(argv=None):
         # process options
         (opts, args) = parser.parse_args(argv)
         if opts.testdir:
-            # _cmd.append(opts.testdir)
-            os.chdir(opts.testdir)
+            _cmd.append(opts.testdir)
             print("-- Using test directory as " + opts.testdir)
         if opts.tags:
             _cmd.append("--tags " + opts.tags)
@@ -72,6 +71,8 @@ def main(argv=None):
         if opts.config:
             os.environ['AUTO_CONFIG'] = opts.config
             print("-- overriding default config file = %s" % opts.config)
+        else:
+            _configfile = os.path.join(opts.testdir, "..", "config", "default.yml")
         if opts.threads:
             _cmd.append("-n " + opts.threads)
             print("-- Using number of threads :" + opts.threads)
@@ -88,13 +89,14 @@ def main(argv=None):
             if "allure" in opts.report:
                 _cmd.append("--alluredir=results/")
         
+        print(_cmd)
         # Running tests        
-        pytest.main(_cmd, plugins=["core.reporter.plugin"])
+        pytest.main(_cmd, plugins=["pyxer.core.reporter.plugin"])
     
     except Exception as e:
         indent = len(program_name) * " "
-        sys.stderr.write(program_name + ": " + repr(e) + "\n")
-        sys.stderr.write(indent + "  for help use --help")
+        print(program_name + ": " + repr(e) + "\n")
+        print(indent + "  for help use --help")
         return 2
 
 
