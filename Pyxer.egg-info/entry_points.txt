@@ -1,0 +1,3 @@
+[console_scripts]
+pyxer = core.runner.__main__:main
+
