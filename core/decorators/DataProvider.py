@@ -5,14 +5,11 @@ from core.data_providers.json_reader import JSONReader
 
 def data(data):
     
-    if not all(isinstance(i, tuple) for i in data):
-        raise Exception("Need a sequence of tuples as data...")
-    
     def wrap(func):
         def wrapper(self, *args, **kwargs):
             for d in data:
                 try:
-                    func(self, *(d + args))
+                    func(self, *(tuple(d) + args))
                 except AssertionError as e:
                     raise AssertionError(e.message + " (data set used: %s)" % repr(d))
         return wrapper

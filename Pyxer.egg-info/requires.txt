@@ -1,9 +1,0 @@
-pytest
-pytest-html
-allure-pytest
-xlrd
-selenium
-requests
-pytest-xdist
-pytest-json-report
-PyYAML

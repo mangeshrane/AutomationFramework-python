@@ -3,8 +3,9 @@ Created on Feb 11, 2019
 
 @author: mrane
 '''
+from core.page.page import Page
 
-class Dashboard(object):
+class Dashboard(Page):
     '''
     classdocs
     '''
@@ -13,3 +14,9 @@ class Dashboard(object):
         Constructor
         '''
         self.driver = driver
+    
+    def load(self):
+        pass
+        
+    def is_loaded(self):
+        pass

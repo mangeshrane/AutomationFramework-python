@@ -5,10 +5,9 @@ Created on Feb 28, 2019
 '''
 import pytest
 from core.browsers.web_drivers import WebDrivers
-import unittest
 
 @pytest.mark.usefixtures("web_driver")
-class Base(unittest.TestCase):
+class Base():
     '''
     This fixture contains the set up and tear down code for each test.
     
@@ -18,4 +17,5 @@ class Base(unittest.TestCase):
         self.driver = WebDrivers().get()
         request.cls.driver = self.driver
         yield
+        # Close browser window:
         self.driver.quit()

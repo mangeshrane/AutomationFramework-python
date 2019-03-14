@@ -45,7 +45,7 @@ def main(argv=None):
         
         # Default option values
         parser.defaults['pattern'] = "test*.py"
-        parser.defaults['testdir'] = "."
+        parser.defaults['testdir'] = os.getcwd()
         
         # Base commmad
         _cmd = []
@@ -87,5 +87,5 @@ def main(argv=None):
         return 2
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()

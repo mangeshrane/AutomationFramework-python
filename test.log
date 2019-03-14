@@ -1,227 +1,32 @@
-CORE 2019-02-19 12:08:26,957 stacktrace.py L 39 __call__:  wrapper	[call]	in D:\Workspace\AutomationProject\core\decorators\DataProvider.py line:39
-CORE 2019-02-19 12:08:26,957 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 12:08:26,957 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 12:16:12,468 stacktrace.py L 39 __call__:  wrapper	[call]	in D:\Workspace\AutomationProject\core\decorators\DataProvider.py line:39
-CORE 2019-02-19 12:16:12,468 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 12:16:12,468 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 12:16:12,468 stacktrace.py L 39 __call__:  wrapper	[call]	in D:\Workspace\AutomationProject\core\decorators\DataProvider.py line:39
-CORE 2019-02-19 12:16:12,468 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 12:16:12,468 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 12:16:12,468 stacktrace.py L 39 __call__:  wrapper	[call]	in D:\Workspace\AutomationProject\core\decorators\DataProvider.py line:39
-CORE 2019-02-19 12:16:12,468 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 12:16:12,468 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:06:37,774 stacktrace.py L 39 __call__:  wrapper	[call]	in D:\Workspace\AutomationProject\core\decorators\DataProvider.py line:39
-CORE 2019-02-19 13:06:37,774 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:06:37,774 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:06:37,774 stacktrace.py L 39 __call__:  wrapper	[call]	in D:\Workspace\AutomationProject\core\decorators\DataProvider.py line:39
-CORE 2019-02-19 13:06:37,774 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:06:37,774 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:06:37,774 stacktrace.py L 39 __call__:  wrapper	[call]	in D:\Workspace\AutomationProject\core\decorators\DataProvider.py line:39
-CORE 2019-02-19 13:06:37,774 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:06:37,774 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:08:55,861 stacktrace.py L 39 __call__:  wrapper	[call]	in D:\Workspace\AutomationProject\core\decorators\DataProvider.py line:39
-CORE 2019-02-19 13:08:55,861 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:08:55,861 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:08:55,861 stacktrace.py L 39 __call__:  wrapper	[call]	in D:\Workspace\AutomationProject\core\decorators\DataProvider.py line:39
-CORE 2019-02-19 13:08:55,861 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:08:55,861 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:08:55,861 stacktrace.py L 39 __call__:  wrapper	[call]	in D:\Workspace\AutomationProject\core\decorators\DataProvider.py line:39
-CORE 2019-02-19 13:08:55,861 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-02-19 13:08:55,861 stacktrace.py L 39 __call__:    test_case_1	[call]	in D:\Workspace\AutomationProject\tests\pages\test.py line:68
-CORE 2019-03-07 15:48:40,983 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 15:48:50,108 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 15:54:36,124 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 15:54:42,724 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 15:54:56,756 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 15:55:04,989 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 15:55:08,455 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 15:55:09,513 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 16:00:19,747 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 16:00:27,255 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 16:00:30,653 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 16:00:31,613 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 16:10:00,449 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 16:10:07,959 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 16:10:12,999 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 16:10:13,791 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 16:15:35,042 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 16:15:42,490 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 16:15:45,991 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 16:15:46,910 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 16:17:56,591 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 16:17:57,977 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 16:17:59,056 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 16:17:59,454 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 18:04:35,809 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 18:04:37,752 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-07 18:04:39,051 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-07 18:04:39,375 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-08 15:11:18,762 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-08 15:11:25,665 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-08 15:11:40,813 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-08 15:11:49,985 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-08 15:16:00,809 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-08 15:16:04,711 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-08 15:16:05,735 test_search.py L 22 test_search_1:  test case started
-CORE 2019-03-08 15:16:06,930 test_search.py L 24 test_search_1:  page initialized
-CORE 2019-03-08 15:16:44,845 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-08 15:16:49,731 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-08 15:16:51,955 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-08 15:16:52,950 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-08 15:19:20,454 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-08 15:19:27,365 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-08 15:19:31,518 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-08 15:19:33,014 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-08 15:26:23,487 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-08 15:26:25,977 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-08 15:26:27,345 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-08 15:26:28,250 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-08 15:29:33,047 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-08 15:29:35,213 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-08 15:29:37,413 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-08 15:29:38,295 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-08 15:38:52,138 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-08 15:38:54,407 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-08 15:38:55,659 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-08 15:38:56,469 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 15:50:30,616 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 15:50:40,129 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 15:50:44,157 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 15:50:45,416 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 17:39:19,497 test_search.py L 21 test_search_1:  test case started
-CORE 2019-03-11 17:40:58,922 test_search.py L 21 test_search_1:  test case started
-CORE 2019-03-11 17:44:28,404 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 17:44:35,787 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 17:44:39,673 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 17:44:40,639 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 17:45:23,557 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 17:45:31,982 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 17:45:36,487 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 17:45:37,195 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 17:46:12,844 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 17:46:14,518 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 17:46:16,487 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 17:46:16,889 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 17:51:06,982 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 17:51:08,370 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 17:51:10,674 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 17:51:10,980 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 17:53:32,591 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 17:54:14,227 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 17:55:26,352 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:07:21,782 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:08:27,970 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:20:32,724 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:21:22,261 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:21:24,434 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 18:21:25,872 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:21:26,402 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 18:23:57,591 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:23:59,508 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 18:24:00,755 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:24:01,205 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 18:29:58,273 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:30:00,937 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 18:30:02,291 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:30:02,706 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 18:30:32,236 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:30:39,338 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 18:30:42,245 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:30:43,120 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 18:46:27,094 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:46:33,616 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 18:46:36,958 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-11 18:46:37,857 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-11 18:47:59,354 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 12:34:25,893 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 12:34:26,236 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 12:34:26,922 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 12:34:27,277 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 12:38:53,990 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 12:38:54,349 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 12:38:54,932 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 12:38:55,340 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 13:01:10,311 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 13:01:11,009 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 13:01:12,308 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 13:01:13,099 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 14:41:41,930 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 14:41:42,216 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 14:41:43,227 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 14:41:43,776 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 14:49:32,533 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 14:49:32,940 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 14:49:33,631 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 14:49:33,987 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 14:58:28,044 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 14:58:28,736 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 14:58:30,113 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 14:58:31,031 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:00:48,226 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:01:02,507 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:01:09,036 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:01:10,595 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:17:03,763 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:17:05,110 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:17:06,388 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:17:07,111 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:21:34,683 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:21:35,549 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:21:36,872 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:21:37,816 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:23:03,019 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:23:10,682 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:23:16,145 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:23:16,975 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:30:00,037 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:30:03,348 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:30:04,817 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:30:05,690 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:33:51,135 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:33:57,391 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:34:00,404 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:34:00,762 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:44:44,482 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:44:44,833 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:44:45,499 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:44:45,790 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:47:54,123 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:47:54,511 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:47:55,224 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:47:55,562 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:49:15,376 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:49:15,668 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-12 15:49:16,323 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-12 15:49:16,649 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 12:04:26,187 Base.py L 19 web_driver:  ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_addfinalizer', '_arg2fixturedefs', '_arg2index', '_check_scope', '_compute_fixture_value', '_factorytraceback', '_fillfixtures', '_fixture_defs', '_fixturedef', '_fixturemanager', '_get_active_fixturedef', '_get_fixturestack', '_getnextfixturedef', '_getscopeitem', '_parent_request', '_pyfuncitem', 'addfinalizer', 'applymarker', 'cls', 'config', 'fixturename', 'fixturenames', 'fspath', 'funcargnames', 'function', 'getfixturevalue', 'getfuncargvalue', 'instance', 'keywords', 'module', 'node', 'param_index', 'raiseerror', 'scope', 'session']
-CORE 2019-03-13 12:09:08,831 Base.py L 19 web_driver:  ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_addfinalizer', '_arg2fixturedefs', '_arg2index', '_check_scope', '_compute_fixture_value', '_factorytraceback', '_fillfixtures', '_fixture_defs', '_fixturedef', '_fixturemanager', '_get_active_fixturedef', '_get_fixturestack', '_getnextfixturedef', '_getscopeitem', '_parent_request', '_pyfuncitem', 'addfinalizer', 'applymarker', 'cls', 'config', 'fixturename', 'fixturenames', 'fspath', 'funcargnames', 'function', 'getfixturevalue', 'getfuncargvalue', 'instance', 'keywords', 'module', 'node', 'param_index', 'raiseerror', 'scope', 'session']
-CORE 2019-03-13 12:09:51,347 Base.py L 19 web_driver:  ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_addfinalizer', '_arg2fixturedefs', '_arg2index', '_check_scope', '_compute_fixture_value', '_factorytraceback', '_fillfixtures', '_fixture_defs', '_fixturedef', '_fixturemanager', '_get_active_fixturedef', '_get_fixturestack', '_getnextfixturedef', '_getscopeitem', '_parent_request', '_pyfuncitem', 'addfinalizer', 'applymarker', 'cls', 'config', 'fixturename', 'fixturenames', 'fspath', 'funcargnames', 'function', 'getfixturevalue', 'getfuncargvalue', 'instance', 'keywords', 'module', 'node', 'param_index', 'raiseerror', 'scope', 'session']
-CORE 2019-03-13 12:10:51,150 Base.py L 19 web_driver:  ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_addfinalizer', '_arg2fixturedefs', '_arg2index', '_check_scope', '_compute_fixture_value', '_factorytraceback', '_fillfixtures', '_fixture_defs', '_fixturedef', '_fixturemanager', '_get_active_fixturedef', '_get_fixturestack', '_getnextfixturedef', '_getscopeitem', '_parent_request', '_pyfuncitem', 'addfinalizer', 'applymarker', 'cls', 'config', 'fixturename', 'fixturenames', 'fspath', 'funcargnames', 'function', 'getfixturevalue', 'getfuncargvalue', 'instance', 'keywords', 'module', 'node', 'param_index', 'raiseerror', 'scope', 'session']
-CORE 2019-03-13 12:11:49,175 Base.py L 19 web_driver:  ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_addfinalizer', '_arg2fixturedefs', '_arg2index', '_check_scope', '_compute_fixture_value', '_factorytraceback', '_fillfixtures', '_fixture_defs', '_fixturedef', '_fixturemanager', '_get_active_fixturedef', '_get_fixturestack', '_getnextfixturedef', '_getscopeitem', '_parent_request', '_pyfuncitem', 'addfinalizer', 'applymarker', 'cls', 'config', 'fixturename', 'fixturenames', 'fspath', 'funcargnames', 'function', 'getfixturevalue', 'getfuncargvalue', 'instance', 'keywords', 'module', 'node', 'param_index', 'raiseerror', 'scope', 'session']
-CORE 2019-03-13 12:13:01,687 Base.py L 19 web_driver:  ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_addfinalizer', '_arg2fixturedefs', '_arg2index', '_check_scope', '_compute_fixture_value', '_factorytraceback', '_fillfixtures', '_fixture_defs', '_fixturedef', '_fixturemanager', '_get_active_fixturedef', '_get_fixturestack', '_getnextfixturedef', '_getscopeitem', '_parent_request', '_pyfuncitem', 'addfinalizer', 'applymarker', 'cls', 'config', 'fixturename', 'fixturenames', 'fspath', 'funcargnames', 'function', 'getfixturevalue', 'getfuncargvalue', 'instance', 'keywords', 'module', 'node', 'param_index', 'raiseerror', 'scope', 'session']
-CORE 2019-03-13 12:55:38,954 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 12:55:39,346 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 12:55:40,000 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 12:55:40,435 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 13:07:20,952 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 13:07:21,467 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 13:07:22,044 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 13:07:22,271 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 13:08:56,301 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 13:08:56,764 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 13:08:57,591 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 13:08:57,990 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 13:10:49,045 Base.py L 20 web_driver:  <_MainThread(MainThread, started 10996)>
-CORE 2019-03-13 13:10:58,290 Base.py L 20 web_driver:  <_MainThread(MainThread, started 10996)>
-CORE 2019-03-13 13:11:04,782 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 13:11:05,181 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 13:11:05,860 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 13:11:06,176 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 13:13:29,707 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 13:13:30,104 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 13:13:30,624 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 13:13:30,929 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 13:14:27,082 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 13:14:30,652 test_search.py L 25 test_search_1:  page initialized
-CORE 2019-03-13 13:14:31,726 test_search.py L 23 test_search_1:  test case started
-CORE 2019-03-13 13:14:32,066 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:00:17,579 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:00:18,035 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:00:18,849 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:00:19,350 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:01:30,609 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:01:34,921 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:01:37,895 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:01:38,229 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:03:35,657 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:03:39,969 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:03:42,891 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:03:43,446 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:05:10,884 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:05:16,796 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:05:22,495 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:05:23,289 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:07:13,406 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:07:19,387 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:07:22,902 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:07:23,710 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:08:17,819 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:08:24,971 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:08:30,967 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:08:31,652 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:11:20,691 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:11:28,738 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:11:32,954 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:11:34,395 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:16:07,605 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:16:11,554 test_search.py L 25 test_search_1:  page initialized
+CORE 2019-03-14 12:16:12,770 test_search.py L 23 test_search_1:  test case started
+CORE 2019-03-14 12:16:13,279 test_search.py L 25 test_search_1:  page initialized

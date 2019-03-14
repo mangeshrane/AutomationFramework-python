@@ -1,11 +1,11 @@
 application:
-    username: mrane
-    password: password
+    username: admin@phptravels.com
+    password: demoadmin
     
 webdriver:
     chrome:
         driver: C:\chromedriver.exe
-        arguments: ["--disable-extensions", "--headless"]
+        arguments: ["--disable-extensions"]
     firefox:
         driver: path
         preferences:
