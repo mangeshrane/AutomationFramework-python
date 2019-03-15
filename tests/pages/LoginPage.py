@@ -24,6 +24,7 @@ class LoginPage(Page):
         return CreatePage.get(Dashboard, self.driver)
     
     def load(self):
+        print("load called")
         self.driver.get("https://www.phptravels.net/admin")
         
     def is_loaded(self):
