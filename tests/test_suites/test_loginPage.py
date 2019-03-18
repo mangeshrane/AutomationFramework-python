@@ -17,13 +17,13 @@ class TestLoginPage(Base):
     '''
     classdocs
     '''
-    @pytest.mark.dependency(name="login")
+    @pytest.mark.dependency()
     def test_login_1(self):
         page = CreatePage.get(LoginPage, self.driver)
         page = page.login(CONFIG.get("application.username"), CONFIG.get("application.password"))
         
     
-    @pytest.mark.dependancy(depends=["login"])
+    @pytest.mark.dependancy(depends=["test_login_1"])
     def test_login(self):
         page = CreatePage.get(Dashboard, self.driver)
         page.click_on_accounts()

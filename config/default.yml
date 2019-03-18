@@ -5,7 +5,7 @@ application:
 webdriver:
     chrome:
         driver: C:\chromedriver.exe
-        arguments: ["--disable-extensions"]
+        arguments: ["--disable-extensions", "--headless"]
     firefox:
         driver: path
         preferences:
@@ -18,3 +18,5 @@ webdriver:
         
 tests:
     browser: chrome
+
+reporting: html
