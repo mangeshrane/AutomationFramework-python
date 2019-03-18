@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -d venv ] then
+if [ -d ../venv ] then
 do
 	# activate 
 else 

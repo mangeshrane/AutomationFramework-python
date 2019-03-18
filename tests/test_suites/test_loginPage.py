@@ -23,7 +23,7 @@ class TestLoginPage(Base):
         page = page.login(CONFIG.get("application.username"), CONFIG.get("application.password"))
         
     
-    @pytest.mark.dependancy(depends=["test_login_1"])
+    @pytest.mark.dependency(depends=["test_login_1"])
     def test_login(self):
         page = CreatePage.get(Dashboard, self.driver)
         page.click_on_accounts()
