@@ -20,6 +20,7 @@ class WebDrivers(object):
 		if extension:
 			option.add_extension(extension)
 		driver = webdriver.Chrome(executable_path=CONFIG.get("webdriver.chrome.driver"), options=option)
+		driver.implicitly_wait(CONFIG.get("webdriver.implicit_wait", 0))
 		return driver
 	
 	@property

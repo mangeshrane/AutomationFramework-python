@@ -5,7 +5,7 @@ application:
 webdriver:
     chrome:
         driver: C:\chromedriver.exe
-        arguments: ["--disable-extensions", "--headless"]
+        arguments: ["--disable-extensions"]
     firefox:
         driver: path
         preferences:
@@ -14,7 +14,7 @@ webdriver:
     wait:
         short: 10
         long: 30
-    
+    implicit_wait: 10
         
 tests:
     browser: chrome

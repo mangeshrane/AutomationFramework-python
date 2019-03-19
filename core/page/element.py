@@ -36,15 +36,15 @@ class Element(object):
     def __delete__(self):
         pass
     
-#     def send_keys(self, keys, wait):
-#         try:
-#             if self._element:
-#                 self._element.send_keys(keys)
-#             else:
-#                 self._element = self.__get__(self, None)
-#         except ElementNotInteractableException:
-#             time.sleep(10)
-#             self.send_keys(keys)
+    def send_keys(self, keys, wait):
+        try:
+            if self._element:
+                self._element.send_keys(keys)
+            else:
+                self._element = self.__get__(self, None)
+        except ElementNotInteractableException:
+            time.sleep(10)
+            self.send_keys(keys)
         
         
     

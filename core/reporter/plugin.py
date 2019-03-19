@@ -35,18 +35,19 @@ def pytest_runtest_makereport(item, call):
     except Exception:
         print("Not able to capture screeshot not UI test")
     # if not exception
-    if report.when == "call":
-        extra.append(pytest_html.extras.url(_driver.current_url))
-    if report.when == 'call' or report.when == "setup":
-        xfail = hasattr(report, 'wasxfail') 
-        # Go to screenshot only when UI tests
-        if (report.skipped and xfail) or (report.failed and not xfail):
-            url = _driver.current_url
-            extra.append(pytest_html.extras.url(url))
-            screenshot = _driver.get_screenshot_as_base64()
-            print("attaching screenshot")
-            extra.append(pytest_html.extras.image(screenshot, ''))
-            if CONFIG.get("reporting", "html") == "allure":
-                allure.attach('screenshot', _driver.get_screenshot_as_png(), type=AttachmentType.PNG)
+    else:
+        if report.when == "call":
+            extra.append(pytest_html.extras.url(_driver.current_url))
+        if report.when == 'call' or report.when == "setup":
+            xfail = hasattr(report, 'wasxfail') 
+            # Go to screenshot only when UI tests
+            if (report.skipped and xfail) or (report.failed and not xfail):
+                url = _driver.current_url
+                extra.append(pytest_html.extras.url(url))
+                screenshot = _driver.get_screenshot_as_base64()
+                print("attaching screenshot")
+                extra.append(pytest_html.extras.image(screenshot, ''))
+                if CONFIG.get("reporting", "html") == "allure":
+                    allure.attach('screenshot', _driver.get_screenshot_as_png(), type=AttachmentType.PNG)
     report.extra = extra
 
