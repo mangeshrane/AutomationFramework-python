@@ -5,14 +5,15 @@ Created on Feb 12, 2019
 '''
 from core.page.page import Page
 
+
 class CreatePage(object):
-    
+
     def __init__(self):
         '''
         Constructor
         '''
         pass
-    
+
     @staticmethod
     def get(page, driver):
         try:
@@ -28,4 +29,3 @@ class CreatePage(object):
             pobject.load()
             pobject.is_loaded()
             return pobject
-    

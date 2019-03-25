@@ -2,8 +2,6 @@ import os
 import yaml
 from os.path import dirname, abspath
 
-# import core.project_root
-
 
 class Config(object):
 

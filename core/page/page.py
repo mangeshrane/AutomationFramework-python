@@ -16,11 +16,12 @@ from abc import ABC, abstractmethod
 from core.page.element import Element
 from builtins import str
 
+
 class Page(ABC):
-    
     """
     Base class that all page models can inherit from
     """
+
     def __init__(self, driver, implicit_wait=10):
         self.base_url = CONFIG.get("application.url")
         super().__init__(driver)
@@ -29,11 +30,11 @@ class Page(ABC):
     def _load(self, url):
         url = self.base_url + url
         self.driver.get(url)
-    
+
     @abstractmethod
     def load(self):
         pass
-    
+
     @abstractmethod
     def is_loaded(self):
         pass
@@ -88,7 +89,8 @@ class Page(ABC):
 
     def accept_alert(self, wait=CONFIG.get("webdriver.wait.short")):
         try:
-            WebDriverWait(self.driver, wait).until(EC.alert_is_present(), 'Timed out waiting for confirmation popup to appear.')
+            WebDriverWait(self.driver, wait).until(EC.alert_is_present(),
+                                                   'Timed out waiting for confirmation popup to appear.')
             alert = self.driver.switch_to_alert()
             alert.accept()
             return True
@@ -112,9 +114,9 @@ class Page(ABC):
         element.send_keys(keys)
 
     def is_element_present(self, loc):
-        try: 
+        try:
             self.find_element(loc)
-        except NoSuchElementException: 
+        except NoSuchElementException:
             return False
         return True
 
@@ -129,7 +131,8 @@ class Page(ABC):
 
     def dismiss_alert(self, wait=CONFIG.get("webdriver.wait.short")):
         try:
-            WebDriverWait(self.driver, wait).until(EC.alert_is_present(), 'Timed out waiting for confirmation popup to appear.')
+            WebDriverWait(self.driver, wait).until(EC.alert_is_present(),
+                                                   'Timed out waiting for confirmation popup to appear.')
             alert = self.driver.switch_to_alert()
             alert.dismiss()
         except TimeoutException:

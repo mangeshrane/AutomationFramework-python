@@ -4,9 +4,11 @@ Created on Feb 12, 2019
 @author: mrane
 '''
 from core.logger import log
+
+
 class StackTrace(object):
     def __init__(self, with_call=True, with_return=False,
-                       with_exception=False, max_depth=-1):
+                 with_exception=False, max_depth=-1):
         self._frame_dict = {}
         self._options = set()
         self._max_depth = max_depth
@@ -25,17 +27,17 @@ class StackTrace(object):
 
         depth = self._frame_dict[frame]
 
-        if event in self._options\
-          and (self._max_depth<0\
-               or depth <= self._max_depth):
+        if event in self._options \
+                and (self._max_depth < 0 \
+                     or depth <= self._max_depth):
             ret.append(frame.f_code.co_name)
-            ret.append('[%s]'%event)
+            ret.append('[%s]' % event)
             if event == 'return':
                 ret.append(arg)
             elif event == 'exception':
                 ret.append(repr(arg[0]))
-            ret.append('in %s line:%s'%(frame.f_code.co_filename, frame.f_lineno))
+            ret.append('in %s line:%s' % (frame.f_code.co_filename, frame.f_lineno))
         if ret:
-            log.info("%s%s"%('  '*depth, '\t'.join([str(i) for i in ret])))
+            log.info("%s%s" % ('  ' * depth, '\t'.join([str(i) for i in ret])))
 
         return self

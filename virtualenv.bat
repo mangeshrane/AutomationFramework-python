@@ -8,7 +8,5 @@ REM activate the venv, install distribute, install pip, create IDLE shortcut in 
  
 venv\Scripts\activate.bat
 pip install -r requirement.txt
- 
-REM Now you can use pip install python_package to install your packages
-REM to use the IDLE, just open the shortcut in your desktop
+
 REM Enjoy!

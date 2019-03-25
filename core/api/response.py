@@ -5,14 +5,15 @@ Created on Mar 20, 2019
 '''
 import json
 
-from requests.models import Response as rp 
+from requests.models import Response as rp
 from collections import namedtuple
+
 
 class Response(object):
     '''
     classdocs
     '''
-    
+
     def __init__(self, response):
         '''
         Constructor
@@ -27,19 +28,19 @@ class Response(object):
         self.reason = response.reason
         self.cookies = response.cookies
         self.headers = response.headers
-    
+
     def assert_response_code(self, response_code):
-        assert self.status_code == response_code, "Response code does not match, expected {0} but found {1}".format(response_code, self.status_code)
+        assert self.status_code == response_code, "Response code does not match, expected {0} but found {1}".format(
+            response_code, self.status_code)
         return self
-    
-    def _json_object_hook(self, d): 
+
+    def _json_object_hook(self, d):
         return namedtuple('response', d.keys())(*d.values())
 
-    def json2obj(self, data): 
+    def json2obj(self, data):
         return json.loads(data, object_hook=self._json_object_hook)
 
-    
-    
+
 class PyJSON(object):
     def __init__(self, d):
         if type(d) is str:

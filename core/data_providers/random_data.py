@@ -6,10 +6,12 @@ Created on Feb 11, 2019
 import random
 import string
 
+
 class Random(object):
     '''
     classdocs
     '''
+
     @staticmethod
     def get_random_string(length=10):
         """
@@ -23,12 +25,10 @@ class Random(object):
         Returns only alpha string
         """
         return ''.join(random.choice(string.ascii_uppercase) for _ in range(length))
-    
+
     @staticmethod
     def get_random_digits(length=10):
         """
         returns a numeric string 
         """
         return ''.join(random.choice(string.digits) for _ in range(length))
-
-        

@@ -5,11 +5,14 @@ Created on Feb 28, 2019
 '''
 from core.browsers.web_drivers import WebDrivers
 
+pytest_plugins = ("core.reporter.plugin",)
+
 class Base:
     '''
     This fixture contains the set up and tear down code for each test.
     
     '''
+
     @classmethod
     def setup_class(cls):
         cls.driver = WebDrivers().get()
