@@ -30,24 +30,25 @@ def pytest_runtest_makereport(item, call):
     report = outcome.get_result()
     
     extra = getattr(report, 'extra', [])
-    try:
-        _driver  = item.cls.driver
-    except Exception:
-        print("Not able to capture screeshot not UI test")
-    # if not exception
-    else:
-        if report.when == "call":
-            extra.append(pytest_html.extras.url(_driver.current_url))
-        if report.when == 'call' or report.when == "setup":
-            xfail = hasattr(report, 'wasxfail') 
-            # Go to screenshot only when UI tests
-            if (report.skipped and xfail) or (report.failed and not xfail):
-                url = _driver.current_url
-                extra.append(pytest_html.extras.url(url))
-                screenshot = _driver.get_screenshot_as_base64()
-                print("attaching screenshot")
-                extra.append(pytest_html.extras.image(screenshot, ''))
-                if CONFIG.get("reporting", "html") == "allure":
-                    allure.attach('screenshot', _driver.get_screenshot_as_png(), type=AttachmentType.PNG)
+    if report.when == 'call' or report.when == "setup":
+        try:
+            _driver  = item.funcargs['request'].instance.driver
+        except Exception:
+            print("Not able to capture screeshot not UI test")
+        # if not exception
+        else:
+            if report.when == "call":
+                extra.append(pytest_html.extras.url(_driver.current_url))
+            if report.when == 'call' or report.when == "setup":
+                xfail = hasattr(report, 'wasxfail') 
+                # Go to screenshot only when UI tests
+                if (report.skipped and xfail) or (report.failed and not xfail):
+                    url = _driver.current_url
+                    extra.append(pytest_html.extras.url(url))
+                    screenshot = _driver.get_screenshot_as_base64()
+                    print("attaching screenshot")
+                    extra.append(pytest_html.extras.image(screenshot, ''))
+                    if CONFIG.get("reporting", "html") == "allure":
+                        allure.attach('screenshot', _driver.get_screenshot_as_png(), type=AttachmentType.PNG)
     report.extra = extra
 

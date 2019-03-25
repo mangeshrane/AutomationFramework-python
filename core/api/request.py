@@ -8,6 +8,7 @@ from requests import Session
 import urllib.parse
 from core.configuration import CONFIG
 from core.api.response import Response
+import json
 
    
 class Request(object):
@@ -21,8 +22,6 @@ class Request(object):
         self._body = None
         self._cookies = {}
         self._params = {}
-        self._query_param = None
-        self._form_parm = None
         self._path_param = None
         self._base_url = None 
         self.stream = False
@@ -32,6 +31,7 @@ class Request(object):
         self._session = Session()
         self._method = ""
         self._proxy = None
+        self._files = None
     
     
         
@@ -46,11 +46,18 @@ class Request(object):
     def add_header(self, key, value):
         self._headers[key] = value
     
+    def add_headers(self, header_dict):
+        if isinstance(header_dict, dict):
+            self._headers.update(header_dict)
+        else:
+            raise ValueError("Parameter must be of dictionary type") 
+        return self
+    
     def cookie(self, key, value):
         self._cookies[key] = value
         return self
     
-    def add_params(self, key, value):
+    def add_param(self, key, value):
         if key in self._params:
             if isinstance(self._params[key], list):
                 self._params[key].append(value)
@@ -64,15 +71,24 @@ class Request(object):
         self._base_url = url
         return self
         
+    def add_form_params(self, param_dict):
+        if isinstance(param_dict, dict):
+            for key, val in param_dict.items():
+                self.add_param(key, val)
+        else:
+            raise ValueError("Form params should be specified in dictionary ")
+        return self
+        
     def set_body(self, body, file=False):
         if file:
             self._body = {'file': open(body, 'rb')}
         else:
-            self.set_body(body)
+            self._body = body 
         return self
     
     def raw_reponse(self):
         self.stream = True
+        return self
     
     def relax_ssl_validation(self):
         self._cert_file = False
@@ -80,17 +96,21 @@ class Request(object):
     
     def set_timeout(self, timeout):
         self._timeout=timeout
+        return self
     
     def set_cert_file(self, path):
         self._cert_file = path
+        return self
     
     def set_json_body(self, json_data):
-        self._json_data = json_data
+        self._json_data = json.loads(json_data)
+        return self
         
     def _build_request(self, method, endpoint=""):
         if endpoint:
             self._base_url = urllib.parse.urljoin(self._base_url, endpoint)
-        self._request = requests.Request(method, self._base_url, data=self._body, json=self._json_data, headers=self._headers)
+        self._request = requests.Request(method, self._base_url, headers=self._headers, files=self._files, data=self._body, json=self._json_data, 
+                                         params=self._params)
         self._request = self._request.prepare()
         
     def _get_resp(self):

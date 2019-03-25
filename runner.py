@@ -39,7 +39,7 @@ def main(argv=None):
         parser.add_option("-t", "--tags", dest="tags", help="tags to run tagged tests [default: %default]", metavar="TAGS")
         parser.add_option("-c", "--config", dest="config", help="Override default config file [default: %default]", metavar="FILE")
         parser.add_option("-p", "--pattern", dest="pattern", help="file patterns eg. *_test.py [default: test*.py]", metavar="String")
-        parser.add_option("-n", "--threads", dest="threads", help="threads are used to run test as number of threads", metavar="String")
+#         parser.add_option("-n", "--threads", dest="threads", help="threads are used to run test as number of threads", metavar="String")
         parser.add_option("-b", "--driver", dest="driver", help="override driver from config file", metavar="browserName")
         parser.add_option("-r", "--report", dest="report", help="specify report generation", metavar="reportType")
         
@@ -61,9 +61,11 @@ def main(argv=None):
         if opts.config:
             os.environ['AUTO_CONFIG'] = opts.config
             print("-- overriding default config file = %s" % opts.config)
-        if opts.threads:
-            _cmd.append("-n " + opts.threads)
-            print("-- Using number of threads :" + opts.threads)
+#         if opts.threads:
+#             if 'win' not in sys.platform:
+#                 _cmd.append("--workers " + opts.threads)
+#             _cmd.append("--tests-per-worker auto")
+#             print("-- Using number of threads :" + opts.threads)
         if opts.driver:
             os.environ["CORE.DRIVER"] = opts.driver
             print("-- overriding default driver configuration: "  + opts.driver)
@@ -77,7 +79,8 @@ def main(argv=None):
             if "allure" in opts.report:
                 _cmd.append("--alluredir=results/")
         
-        # Running tests        
+        # Running tests       
+        print(_cmd) 
         pytest.main(_cmd, plugins=["core.reporter.plugin"])
     
     except Exception as e:

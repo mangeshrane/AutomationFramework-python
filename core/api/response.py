@@ -17,6 +17,7 @@ class Response(object):
         '''
         Constructor
         '''
+        print(response.text)
         if not isinstance(response, rp):
             raise ValueError
         self.url = response.url
