@@ -4,6 +4,7 @@ Created on Feb 18, 2019
 @author: mrane
 '''
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options as ffOptions
 from selenium import webdriver
 from core.configuration import CONFIG
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
@@ -20,12 +21,33 @@ class WebDrivers(object):
             option.add_argument(arg)
         if extension:
             option.add_extension(extension)
-        driver = webdriver.Chrome(executable_path=CONFIG.get("webdriver.chrome.driver"), options=option)
+        if CONFIG.get("webdriver.type", "local") != "grid":
+            driver = webdriver.Chrome(
+                executable_path=CONFIG.get("webdriver.chrome.driver"),
+                options=option)
+        else:
+            chrome_capabilities = webdriver.DesiredCapabilities.CHROME
+            chrome_capabilities['platform'] = CONFIG.get("webdriver.grid.platform")
+            chrome_capabilities['browserName'] = 'chrome'
+            chrome_capabilities['javascriptEnabled'] = True
+            driver = webdriver.Remote(
+                    command_executor=CONFIG.get("webdriver.grid.url"),
+                    desired_capabilities=webdriver.DesiredCapabilities.CHROME,
+                    options=option)
         driver.implicitly_wait(CONFIG.get("webdriver.implicit_wait", 0))
         return driver
 
     @property
     def firefox(self, args=[], extension=None):
+        firefox_capabilities = webdriver.DesiredCapabilities.FIREFOX
+        firefox_capabilities['platform'] = CONFIG.get("webdriver.grid.platform")
+        firefox_capabilities['browserName'] = 'firefox'
+        firefox_capabilities['javascriptEnabled'] = True
+        firefox_capabilities['marionette'] = True
+
+        options = ffOptions()
+        options.log.level = 'trace'
+            
         profile = FirefoxProfile()
         pref = CONFIG.get("webdriver.firefox.preferences", None)
         if pref:
@@ -33,7 +55,12 @@ class WebDrivers(object):
                 profile.set_preference(key, value)
         if extension:
             profile.add_extension(extension)
-        driver = webdriver.Firefox(profile, executable_path=CONFIG.get("webdriver.firefox.driver"))
+        if CONFIG.get("webdriver.type", "local") != "grid":
+            driver = webdriver.Firefox(profile, executable_path=CONFIG.get("webdriver.firefox.driver"))
+        else:
+            driver = webdriver.Remote(command_executor=CONFIG.get("webdriver.grid.url"),
+                                      desired_capabilities=firefox_capabilities, 
+                                      options=options)
         return driver
 
     @staticmethod

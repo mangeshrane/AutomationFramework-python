@@ -5,8 +5,7 @@ Created on Feb 11, 2019
 '''
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import ElementNotInteractableException
-import time
+from selenium.common.exceptions import StaleElementReferenceException
 
 
 class Element(object):
@@ -14,7 +13,7 @@ class Element(object):
     WebElement descriptor to define webelements in page objects
     '''
 
-    def __init__(self, by, locator, wait=0):
+    def __init__(self, by, locator, wait=10):
         '''
         Constructor: 
         takes selenium.webdriver.common.by.By as by and locator as string locator value
@@ -40,10 +39,11 @@ class Element(object):
 
     def send_keys(self, keys, wait):
         try:
-            if self._element:
-                self._element.send_keys(keys)
-            else:
+            if not self._element:
                 self._element = self.__get__(self, None)
-        except ElementNotInteractableException:
-            time.sleep(10)
-            self.send_keys(keys)
+            self._element.send_keys(keys)
+        except StaleElementReferenceException:
+            self._element = self.__get__(self, None)
+            self._element.send_keys(keys)
+    
+    

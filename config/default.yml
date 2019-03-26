@@ -3,9 +3,17 @@ application:
     password: demoadmin
     
 webdriver:
+    sauce:
+        username:
+        key:
+        browserName:
+    grid:
+        url: 
+        platform: 
+    type: local
     chrome:
         driver: C:\chromedriver.exe
-        arguments: ["--disable-extensions"]
+        arguments: ["--disable-extensions", "--headless"]
     firefox:
         driver: path
         preferences:

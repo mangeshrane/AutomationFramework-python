@@ -15,6 +15,6 @@ class TestCheck(Base):
         page.search("test")
         assert False
        
-    @data([[1, 2], [4, 4], [5, 5]])
-    def test_data(self, a, b):
-        print(a, b)
+#     @data([[1, 2], [4, 4], [5, 5]])
+#     def test_data(self, a, b):
+#         print(a, b)

@@ -89,7 +89,7 @@ def main(argv=None):
                     _cmd.append("--alluredir=results/")
 
             # Running tests
-                pytest.main(_cmd, plugins=[pytest_plugin])
+                pytest.main(_cmd, plugins=["core.reporter.pytest_plugin"])
 
         except Exception as e:
             indent = len(program_name) * " "

@@ -12,7 +12,7 @@ class Elements(object):
     WebElement descriptor to define webelements in page objects
     '''
 
-    def __init__(self, by, locator, wait=0):
+    def __init__(self, by, locator, wait=10):
         '''
         Constructor: 
         takes selenium.webdriver.common.by.By as by and locator as string locator value
