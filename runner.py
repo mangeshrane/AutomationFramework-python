@@ -70,13 +70,6 @@ def main(argv=None):
             if opts.config:
                 os.environ['AUTO_CONFIG'] = opts.config
                 print("-- overriding default config file = %s" % opts.config)
-            if opts.threads:
-                _cmd.append("-n " + opts.threads)
-                _cmd.append("--dist=loadscope")
-                print("-- Using number of threads :" + opts.threads)
-            if opts.driver:
-                os.environ["CORE.DRIVER"] = opts.driver
-                print("-- overriding default driver configuration: " + opts.driver)
             if opts.report:
                 if "html" in opts.report:
                     _cmd.append("--self-contained-html")
@@ -86,11 +79,19 @@ def main(argv=None):
                     _cmd.append("--json-report-file=results/report.json")
                 if "allure" in opts.report:
                     _cmd.append("--alluredir=results/")
+            if opts.threads:
+                _cmd.append("-n " + opts.threads)
+                _cmd.append("--dist=loadscope")
+                print("-- Using number of threads :" + opts.threads)
+            if opts.driver:
+                os.environ["CORE.DRIVER"] = opts.driver
+                print("-- overriding default driver configuration: " + opts.driver)
+
 
             # Running tests
-                pytest.main(_cmd,
-                             # plugins=["core.reporter.pytest_plugin"]
-                             )
+            pytest.main(_cmd,
+                         # plugins=["core.reporter.pytest_plugin"]
+                         )
 
         except Exception as e:
             indent = len(program_name) * " "

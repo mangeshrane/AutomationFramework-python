@@ -10,7 +10,7 @@ from allure_commons.types import AttachmentType
 from core.configuration import CONFIG
 
   
-@pytest.hookimpl(hookwrapper=True, autouse=True)
+@pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
       
     with open('report', 'w') as f:
