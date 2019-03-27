@@ -128,7 +128,16 @@ class Request(object):
     def post(self, endpoint=''):
         self._build_request('POST', endpoint)
         return self._get_resp()
-
+    
+    def put(self, endpoint=""):
+        pass
+    
+    def delete(self, endpoint=""):
+        pass
+    
+    def head(self, endpoint=""):
+        pass
+    
 
 class AuthConfig(object):
 

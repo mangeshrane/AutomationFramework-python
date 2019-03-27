@@ -21,7 +21,7 @@ class Page(ABC):
     """
     Base class that all page models can inherit from
     """
-
+    
     def __init__(self, driver, implicit_wait=10):
         self.base_url = CONFIG.get("application.url")
         super().__init__(driver)
@@ -30,7 +30,9 @@ class Page(ABC):
     def _load(self, url):
         url = self.base_url + url
         self.driver.get(url)
-
+    
+    # --------------- Abstract Mehods for page model -----------------------
+    
     @abstractmethod
     def load(self):
         pass
@@ -38,7 +40,8 @@ class Page(ABC):
     @abstractmethod
     def is_loaded(self):
         pass
-
+    
+    # ----------------------------------------------------------------------
     def run_script(self, src):
         return self.driver.execute_script(src)
 

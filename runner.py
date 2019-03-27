@@ -73,7 +73,6 @@ def main(argv=None):
             if opts.threads:
                 _cmd.append("-n " + opts.threads)
                 _cmd.append("--dist=loadscope")
-                # _cmd.append("-p core.reporter.plugin")
                 print("-- Using number of threads :" + opts.threads)
             if opts.driver:
                 os.environ["CORE.DRIVER"] = opts.driver
@@ -89,7 +88,9 @@ def main(argv=None):
                     _cmd.append("--alluredir=results/")
 
             # Running tests
-                pytest.main(_cmd, plugins=["core.reporter.pytest_plugin"])
+                pytest.main(_cmd,
+                             # plugins=["core.reporter.pytest_plugin"]
+                             )
 
         except Exception as e:
             indent = len(program_name) * " "
