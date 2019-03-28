@@ -8,7 +8,6 @@ import json
 from requests.models import Response as rp
 from collections import namedtuple
 
-
 class Response(object):
     '''
     classdocs
@@ -18,13 +17,15 @@ class Response(object):
         '''
         Constructor
         '''
-        print(response.text)
         if not isinstance(response, rp):
             raise ValueError
         self.url = response.url
         self.status_code = response.status_code
         self._request = response.request
-        self.body = PyJSON(response.text)
+        try:
+            self.body = PyJSON(response.text)
+        except Exception:
+            self.body = None
         self.reason = response.reason
         self.cookies = response.cookies
         self.headers = response.headers
@@ -39,6 +40,7 @@ class Response(object):
 
     def json2obj(self, data):
         return json.loads(data, object_hook=self._json_object_hook)
+    
 
 
 class PyJSON(object):

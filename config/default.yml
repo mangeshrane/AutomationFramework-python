@@ -13,7 +13,7 @@ webdriver:
     type: local
     chrome:
         driver: C:\chromedriver.exe
-        arguments: ["--disable-extensions"]
+        arguments: ["--disable-extensions", "--headless"]
     firefox:
         driver: path
         preferences:

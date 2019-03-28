@@ -12,10 +12,6 @@ from core.configuration import CONFIG
   
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
-      
-    with open('report', 'w') as f:
-            f.write(call.when + '\n') 
-              
     pytest_html = item.config.pluginmanager.getplugin('html')
     outcome = yield
     report = outcome.get_result()
@@ -24,7 +20,7 @@ def pytest_runtest_makereport(item, call):
         try:
             _driver = item.cls.driver
         except Exception:
-            print("Not able to capture screeshot not UI test")
+            pass
         # if not exception
         else:
             if report.when == "call":
@@ -41,5 +37,7 @@ def pytest_runtest_makereport(item, call):
                         allure.attach('screenshot', _driver.get_screenshot_as_png(), type=AttachmentType.PNG)
     report.extra = extra
 
-    
+def pytest_runtest_call(item):
+    """ called to execute the test ``item``. """
+    print(dir(item))
 

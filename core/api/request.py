@@ -9,6 +9,7 @@ import urllib.parse
 from core.configuration import CONFIG
 from core.api.response import Response
 import json
+from requests.auth import HTTPDigestAuth
 
 
 class Request(object):
@@ -22,7 +23,7 @@ class Request(object):
         self._body = None
         self._cookies = {}
         self._params = {}
-        self._path_param = None
+        self._path_param = {}
         self._base_url = None
         self.stream = False
         self._timeout = CONFIG.get("api.request.timeout", None)
@@ -32,6 +33,7 @@ class Request(object):
         self._method = ""
         self._proxy = None
         self._files = None
+        self._auth = None
 
     def header(self, Accept):
         if type(Accept).__name__ == 'dict':
@@ -54,7 +56,7 @@ class Request(object):
     def cookie(self, key, value):
         self._cookies[key] = value
         return self
-
+    
     def add_param(self, key, value):
         if key in self._params:
             if isinstance(self._params[key], list):
@@ -68,7 +70,18 @@ class Request(object):
     def set_base_url(self, url):
         self._base_url = url
         return self
-
+    
+    def set_path_param(self, key, value):
+        self._path_param[key] = value
+        return self
+    
+    def set_path_params(self, params_dict):
+        if isinstance(params_dict, dict):
+            for key, value in params_dict.items():
+                self.set_path_param(key, value)
+        else:
+            raise ValueError("Path params should be specified in dictionary")
+    
     def add_form_params(self, param_dict):
         if isinstance(param_dict, dict):
             for key, val in param_dict.items():
@@ -107,8 +120,14 @@ class Request(object):
     def _build_request(self, method, endpoint=""):
         if endpoint:
             self._base_url = urllib.parse.urljoin(self._base_url, endpoint)
-        self._request = requests.Request(method, self._base_url, headers=self._headers, files=self._files,
-                                         data=self._body, json=self._json_data,
+        if self._path_param:
+            self._base_url = self._base_url.format(**self._path_param)
+        self._request = requests.Request(method, self._base_url,
+                                         headers=self._headers, 
+                                         files=self._files,
+                                         data=self._body, 
+                                         json=self._json_data,
+                                         auth=self._auth,
                                          params=self._params)
         self._request = self._request.prepare()
 
@@ -130,26 +149,23 @@ class Request(object):
         return self._get_resp()
     
     def put(self, endpoint=""):
-        pass
+        self._build_request("PUT", endpoint)
+        return self._get_resp()
     
     def delete(self, endpoint=""):
-        pass
+        self._build_request("DELETE", endpoint)
+        return self._get_resp()
     
     def head(self, endpoint=""):
-        pass
+        self._build_request("HEAD", endpoint)
+        return self._get_resp()
     
-
-class AuthConfig(object):
-
-    def basic(self):
-        pass
-
-    def digest_auth(self):
-        pass
-
-    def o_auth1(self):
-        pass
-
+    def auth(self, username, password, atype="basic"):
+        if atype == "basic":
+            self._auth = (username, password)
+        elif atype == "digest":
+            self._auth = HTTPDigestAuth('user', 'pass')
+        return self
 
 class ContentType:
     JSON = {'Content-Type': 'application/json'}

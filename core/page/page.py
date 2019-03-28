@@ -140,3 +140,6 @@ class Page(ABC):
             alert.dismiss()
         except TimeoutException:
             print('No alert accepted')
+            
+    def is_page_loaded(self):
+        self.driver.execute_script('return document.readyState == "complete"')
