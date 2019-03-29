@@ -1,5 +1,7 @@
 import xlrd
 from core.logger import log
+import os
+from core.file_manager.file_manager import FileManager
 
 
 class ExcelReader(object):
@@ -9,7 +11,7 @@ class ExcelReader(object):
         
     @staticmethod    
     def get_data_map(filename, data_filter, headers=True, sheet_no=0):
-        workbook = xlrd.open_workbook(filename)
+        workbook = xlrd.open_workbook(os.path.join(FileManager.get_test_datadir(), filename))
         data_filter = data_filter
         sheet = workbook.sheet_by_index(sheet_no)
         
