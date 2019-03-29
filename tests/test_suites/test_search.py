@@ -3,7 +3,6 @@ from core.page.create_page import CreatePage
 from tests.pages.search_page import SearchPage
 
 import allure
-from core.decorators.DataProvider import data
 import pytest
 
 
@@ -16,7 +15,6 @@ class TestSearch(Base):
         page = CreatePage.get(SearchPage, self.driver)
         page.search("test")
 
-    @data([("test",),("selenium",)])
     def test_search_1(self, query):
         page = CreatePage.get(SearchPage, self.driver)
         page.search(query)

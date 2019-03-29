@@ -11,6 +11,12 @@ class FileManager(object):
     File Manager 
     '''
     __rootdir__ = None
+    TEST_DATA = ""
+    
+    @classmethod
+    def get_test_datadir(cls):
+        cls.TEST_DATA = os.path.join(cls.get_project_root(), "testData")
+        return cls.TEST_DATA
     
     @staticmethod
     def create_folder_structure(folders_string):

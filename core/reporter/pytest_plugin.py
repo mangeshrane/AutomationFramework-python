@@ -37,7 +37,18 @@ def pytest_runtest_makereport(item, call):
                         allure.attach('screenshot', _driver.get_screenshot_as_png(), type=AttachmentType.PNG)
     report.extra = extra
 
-def pytest_runtest_call(item):
-    """ called to execute the test ``item``. """
-    print(dir(item))
+# def pytest_runtest_setup(item):
+#     """ called before ``pytest_runtest_call(item)``. """
+#     dmark = None
+#     idx = None
+#     print(item.function.__dict__['pytestmark'])
+#     for id, mark in enumerate(item.function.__dict__['pytestmark']):
+#         if mark.name == 'parametrize':
+#             dmark = mark
+#             idx = id
+#             break
+#     if dmark:
+#         del dmark.args
+#         print(dmark.args)
+#         item.function.__dict__['pytestmark'][idx] = ("self," + dmark.args[0], dmark.args[1:])  
 
