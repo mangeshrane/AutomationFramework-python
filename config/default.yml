@@ -7,13 +7,22 @@ webdriver:
         username:
         key:
         browserName:
-    grid:
+        caps:
+            browserName: chrome 
+            version: 66.0
+            platform: macOS 10.13
+
+    remote:
         url: 
         platform: 
+    
+    # Available types: remote, local
     type: local
+    
     chrome:
         driver: C:\chromedriver.exe
         arguments: ["--disable-extensions", "--headless"]
+    
     firefox:
         driver: path
         preferences:
@@ -25,10 +34,11 @@ webdriver:
     implicit_wait: 10
         
 tests:
-    browser: chrome
-
-reporting: html
-
+    browser:
+        # chrome, firefox if local
+        name: chrome
+        scope: class
+        
 api:
     request:
         timeout: 20

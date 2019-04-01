@@ -1,13 +1,15 @@
 import json
 from collections import namedtuple
 from builtins import staticmethod
+from core.file_manager.file_manager import FileManager
+import os
 
 
 class JSONReader(object):
 
     @staticmethod
     def get_data_map(filename):
-        with open(filename) as f:
+        with open(os.path.join(FileManager.get_test_datadir(), filename)) as f:
             raw = f.read()
         j = json.loads(raw)
         return j

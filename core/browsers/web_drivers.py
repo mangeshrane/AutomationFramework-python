@@ -21,26 +21,26 @@ class WebDrivers(object):
             option.add_argument(arg)
         if extension:
             option.add_extension(extension)
-        if CONFIG.get("webdriver.type", "local") != "grid":
+        if CONFIG.get("webdriver.type", "local") != "remote":
             driver = webdriver.Chrome(
                 executable_path=CONFIG.get("webdriver.chrome.driver"),
                 options=option)
         else:
             chrome_capabilities = webdriver.DesiredCapabilities.CHROME
-            chrome_capabilities['platform'] = CONFIG.get("webdriver.grid.platform")
+            chrome_capabilities['platform'] = CONFIG.get("webdriver.remote.platform")
             chrome_capabilities['browserName'] = 'chrome'
             chrome_capabilities['javascriptEnabled'] = True
             driver = webdriver.Remote(
-                    command_executor=CONFIG.get("webdriver.grid.url"),
+                    command_executor=CONFIG.get("webdriver.remote.url"),
                     desired_capabilities=webdriver.DesiredCapabilities.CHROME,
                     options=option)
         driver.implicitly_wait(CONFIG.get("webdriver.implicit_wait", 0))
         return driver
-
+    
     @property
     def firefox(self, args=[], extension=None):
         firefox_capabilities = webdriver.DesiredCapabilities.FIREFOX
-        firefox_capabilities['platform'] = CONFIG.get("webdriver.grid.platform")
+        firefox_capabilities['platform'] = CONFIG.get("webdriver.remote.platform")
         firefox_capabilities['browserName'] = 'firefox'
         firefox_capabilities['javascriptEnabled'] = True
         firefox_capabilities['marionette'] = True
@@ -55,14 +55,21 @@ class WebDrivers(object):
                 profile.set_preference(key, value)
         if extension:
             profile.add_extension(extension)
-        if CONFIG.get("webdriver.type", "local") != "grid":
+        if CONFIG.get("webdriver.type", "local") != "remote":
             driver = webdriver.Firefox(profile, executable_path=CONFIG.get("webdriver.firefox.driver"))
         else:
-            driver = webdriver.Remote(command_executor=CONFIG.get("webdriver.grid.url"),
+            driver = webdriver.Remote(command_executor=CONFIG.get("webdriver.remote.url"),
                                       desired_capabilities=firefox_capabilities, 
                                       options=options)
         return driver
-
+    
+    @property
+    def sauce(self):
+        driver = webdriver.Remote(
+            command_executor="https://" + CONFIG.get("sauce.username") + ":" + CONFIG.get("sauce.key") + "@ondemand.saucelabs.com:443/wd/hub",
+            desired_capabilities=CONFIG.get("webdriver.sauce.caps"))
+        return driver
+    
     @staticmethod
     def get():
         if os.environ.get("CORE.DRIVER", None):
@@ -71,5 +78,5 @@ class WebDrivers(object):
             except KeyError:
                 browser = "chrome"
         else:
-            browser = CONFIG.get("tests.browser", "chrome")
+            browser = CONFIG.get("tests.browser.name", "chrome")
         return WebDrivers.__getattribute__(WebDrivers(), browser)
