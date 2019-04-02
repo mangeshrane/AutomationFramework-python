@@ -5,18 +5,24 @@ Created on Feb 11, 2019
 '''
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import StaleElementReferenceException
+from core.logger import LOG
 
 
 class Element(object):
     '''
     WebElement descriptor to define webelements in page objects
+    This will returns Webelement when it is accessed
     '''
 
     def __init__(self, by, locator, wait=10):
         '''
         Constructor: 
-        takes selenium.webdriver.common.by.By as by and locator as string locator value
+        Parameters:
+        ---------- 
+        by : selenium.webdriver.common.by.By
+        locator: string locator value
+        wait: [optional] default=10
+        
         '''
         self._by = by
         self._locator = locator
@@ -24,11 +30,12 @@ class Element(object):
         self._element = None
 
     def __get__(self, instance, owner):
-        if self._wait > 0:
+        if self._wait:
             _element = WebDriverWait(instance.driver, self._wait).until(
                 EC.presence_of_element_located((self._by, self._locator)))
         else:
             _element = instance.driver.find_element(self._by, self._locator)
+        LOG.info("returning element {}={} ".format(self._by, self._locator))
         return _element
 
     def __set__(self, instance, name):
@@ -37,13 +44,5 @@ class Element(object):
     def __delete__(self):
         pass
 
-    def send_keys(self, keys, wait):
-        try:
-            if not self._element:
-                self._element = self.__get__(self, None)
-            self._element.send_keys(keys)
-        except StaleElementReferenceException:
-            self._element = self.__get__(self, None)
-            self._element.send_keys(keys)
     
     

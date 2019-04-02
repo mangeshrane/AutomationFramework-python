@@ -9,7 +9,7 @@ import string
 
 class Random(object):
     '''
-    classdocs
+    This class generates random test data
     '''
 
     @staticmethod

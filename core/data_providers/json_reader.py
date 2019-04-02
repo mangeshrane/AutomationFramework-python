@@ -3,6 +3,7 @@ from collections import namedtuple
 from builtins import staticmethod
 from core.file_manager.file_manager import FileManager
 import os
+from core.logger import LOG
 
 
 class JSONReader(object):
@@ -12,6 +13,7 @@ class JSONReader(object):
         with open(os.path.join(FileManager.get_test_datadir(), filename)) as f:
             raw = f.read()
         j = json.loads(raw)
+        LOG.info("returning data from json file : " + filename)
         return j
 
     @staticmethod

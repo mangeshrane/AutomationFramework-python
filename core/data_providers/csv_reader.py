@@ -1,7 +1,7 @@
 import csv
 import os
-from core.logger import log
 from core.file_manager.file_manager import FileManager
+from core.logger import LOG
 
 
 class CSVReader(object):
@@ -13,4 +13,5 @@ class CSVReader(object):
     def get_data_map(filename, header=None):
         with open(os.path.join(FileManager.get_test_datadir(), filename)) as csvfile:
             reader = csv.DictReader(csvfile, fieldnames=header)
+            LOG.info("returning CSV data")
             return list(reader)

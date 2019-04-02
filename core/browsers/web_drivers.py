@@ -9,6 +9,7 @@ from selenium import webdriver
 from core.configuration import CONFIG
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 import os
+from core.logger import LOG
 
 
 class WebDrivers(object):
@@ -35,6 +36,7 @@ class WebDrivers(object):
                     desired_capabilities=webdriver.DesiredCapabilities.CHROME,
                     options=option)
         driver.implicitly_wait(CONFIG.get("webdriver.implicit_wait", 0))
+        LOG.info("returning {0} chrome driver with {1}".format(CONFIG.get("webdriver.type", "local"), str(option)))
         return driver
     
     @property
@@ -61,6 +63,7 @@ class WebDrivers(object):
             driver = webdriver.Remote(command_executor=CONFIG.get("webdriver.remote.url"),
                                       desired_capabilities=firefox_capabilities, 
                                       options=options)
+        LOG.info("returning {0} chrome driver with {1}".format(CONFIG.get("webdriver.type", "local"), str(profile)))
         return driver
     
     @property
@@ -68,15 +71,15 @@ class WebDrivers(object):
         driver = webdriver.Remote(
             command_executor="https://" + CONFIG.get("sauce.username") + ":" + CONFIG.get("sauce.key") + "@ondemand.saucelabs.com:443/wd/hub",
             desired_capabilities=CONFIG.get("webdriver.sauce.caps"))
+        LOG.info("returning saurce remote webdriver")
         return driver
     
     @staticmethod
     def get():
         if os.environ.get("CORE.DRIVER", None):
-            try:
-                browser = os.environ["CORE.DRIVER"]
-            except KeyError:
-                browser = "chrome"
+            browser = os.environ["CORE.DRIVER"]
+            LOG.info("getting browser from CORE.DRIVER : " + browser)
         else:
             browser = CONFIG.get("tests.browser.name", "chrome")
+            LOG.warn("CORE.DRIVER not found setting browser : " + browser)
         return WebDrivers.__getattribute__(WebDrivers(), browser)

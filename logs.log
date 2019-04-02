@@ -1,0 +1,93 @@
+CORE 2019-04-02 10:42:57,729 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 10:42:57,735 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 10:42:58,463 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-02 10:42:59,680 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-02 10:43:00,374 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-02 10:44:17,598 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 10:44:17,603 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 10:44:17,817 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 10:44:17,818 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 10:44:17,855 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-02 10:44:53,239 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 10:44:53,244 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 10:44:53,373 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 10:44:53,374 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 10:44:53,376 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-02 10:45:43,628 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 10:45:43,634 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 10:45:43,761 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 10:45:43,761 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 10:45:43,764 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-02 10:46:07,268 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 10:46:07,273 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 10:46:07,404 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 10:46:07,404 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 10:46:07,407 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-02 10:46:07,508 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-02 10:46:07,508 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-02 10:46:07,508 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-02 10:46:07,508 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-02 10:46:07,508 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-02 10:46:10,149 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-02 10:46:10,156 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-02 10:46:10,156 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04180390>
+CORE 2019-04-02 11:07:56,672 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 11:07:56,677 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 11:07:56,816 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:07:56,816 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:07:56,819 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-02 11:07:56,841 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-02 11:07:56,843 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-02 11:07:56,853 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-02 11:07:56,853 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-02 11:07:56,856 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-02 11:07:56,856 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-02 11:07:56,856 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-02 11:07:56,867 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-02 11:07:56,867 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-02 11:07:56,868 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-02 11:07:56,868 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-02 11:07:56,868 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-02 11:07:59,253 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-02 11:07:59,260 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-02 11:07:59,260 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x041812B0>
+CORE 2019-04-02 11:08:05,014 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-02 11:08:05,043 element.py L 32 __get__:  returning element name q 
+CORE 2019-04-02 11:08:10,298 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-02 11:08:10,313 element.py L 32 __get__:  returning element name q 
+CORE 2019-04-02 11:53:46,783 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 11:53:46,788 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 11:53:46,794 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:53:46,794 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:55:45,741 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 11:55:45,746 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 11:55:45,750 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:55:45,750 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:56:46,432 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 11:56:46,437 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 11:56:46,438 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:56:46,438 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:57:15,510 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 11:57:15,515 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 11:57:15,517 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:57:15,517 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:57:40,408 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 11:57:40,414 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 11:57:40,415 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:57:40,415 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:57:50,091 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 11:57:50,096 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 11:57:50,097 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:57:50,098 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:58:07,734 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 11:58:07,738 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 11:58:07,740 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 11:58:07,740 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 12:01:29,428 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 12:01:29,433 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 12:01:29,439 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 12:01:29,439 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 12:02:26,490 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 12:02:26,495 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 12:02:26,498 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 12:02:26,499 config_reader.py L 34 get:  config returning webdriver.wait.short: 10

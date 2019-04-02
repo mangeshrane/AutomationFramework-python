@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ -d ../venv ] then
-do
-	# activate 
+if [ -d ../env ] 
+then
+	echo "activate" 
 else 
-	python -m venv venv
-	# activate 
-done
+	python -m venv ../env
+	echo "activate" 
+fi
