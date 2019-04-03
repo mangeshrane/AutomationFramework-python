@@ -3,19 +3,21 @@ Created on Feb 5, 2019
 
 @author: mrane
 '''
-from core.configuration import CONFIG
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support.select import Select
-from selenium.webdriver.common.keys import Keys
 from abc import ABC, abstractmethod
-from core.page.element import Element
-from core.logger import LOG
+
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.select import Select
+from selenium.webdriver.support.wait import WebDriverWait
+
+from core.configuration import CONFIG
+from core.logger import LOG
+from core.web.element import Element
 
 
-class Page(ABC):
+class WebPage(ABC):
     """
     Base class that all page models can inherit.
     This class contains useful methods for UI automation

@@ -4,12 +4,12 @@ Created on Mar 28, 2019
 @author: mrane
 '''
 import pytest
-from core.page.create_page import CreatePage
 from tests.pages.search_page import SearchPage
-from core.web.Base import Base
 from core.data_providers.data_provider import get_data
+from core.web.create_page import CreatePage
+from core.web.webtest import WebTest
   
-class TestDatadriven(Base):
+class TestDatadriven(WebTest):
      
     # parametrize by specifying in tests
     @pytest.mark.parametrize("query, test", [('selenium',0), ('QTP',1)])

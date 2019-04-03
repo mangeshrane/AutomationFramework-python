@@ -9,7 +9,7 @@ from core.browsers.web_drivers import WebDrivers
 from core.configuration import CONFIG
 
 @pytest.mark.usefixtures("web_driver")
-class Base():
+class WebTest():
     
     @pytest.fixture(scope=CONFIG.get("tests.browser.scope", "class"), autouse=True)
     def web_driver(self, request):

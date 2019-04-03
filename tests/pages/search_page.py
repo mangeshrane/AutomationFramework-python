@@ -1,10 +1,10 @@
-from core.page.page import Page
-from core.page.element import Element
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from core.web.webpage import WebPage
+from core.web.element import Element
 
 
-class SearchPage(Page):
+class SearchPage(WebPage):
 
     def __init__(self, driver):
         self.driver = driver
@@ -15,7 +15,7 @@ class SearchPage(Page):
         self.driver.get("http://google.com")
 
     def is_loaded(self):
-        Page.is_loaded(self)
+        pass
 
     def search(self, query):
         self.search_field.send_keys(query + Keys.ENTER)

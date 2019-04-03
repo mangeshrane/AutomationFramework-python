@@ -3,17 +3,17 @@ Created on Mar 14, 2019
  
 @author: mrane
 '''
-from core.page.create_page import CreatePage
 from tests.pages.LoginPage import LoginPage
-from core.web.Base import Base
 from core.configuration import CONFIG
 import time
  
 import pytest
-from pytest_dependency import depends
 from tests.pages.dashboard import Dashboard
+from core.web.create_page import CreatePage
+from core.web.webtest import WebTest
+from core.logger import LOG
  
-class TestLoginPage(Base):
+class TestLoginPage(WebTest):
     '''
     classdocs
     '''
@@ -23,6 +23,7 @@ class TestLoginPage(Base):
         print("running login")
         page = CreatePage.get(LoginPage, self.driver)
         page = page.login(CONFIG.get("application.username"), CONFIG.get("application.password"))
+        LOG.info("PAGE TITLE " + self.driver.title)
  
     def test_accounts(self):
         page = CreatePage.get(Dashboard, self.driver)

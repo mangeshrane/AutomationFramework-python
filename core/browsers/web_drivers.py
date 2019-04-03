@@ -81,5 +81,5 @@ class WebDrivers(object):
             LOG.info("getting browser from CORE.DRIVER : " + browser)
         else:
             browser = CONFIG.get("tests.browser.name", "chrome")
-            LOG.warn("CORE.DRIVER not found setting browser : " + browser)
+            LOG.warning("CORE.DRIVER not found setting browser : " + browser)
         return WebDrivers.__getattribute__(WebDrivers(), browser)

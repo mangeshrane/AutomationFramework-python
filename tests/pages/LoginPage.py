@@ -1,12 +1,12 @@
-from core.page.page import Page
-from core.page.element import Element
 from selenium.webdriver.common.by import By
 from tests.pages.dashboard import Dashboard
-from core.page.create_page import CreatePage
 from core.configuration import CONFIG
+from core.web.element import Element
+from core.web.create_page import CreatePage
+from core.web.webpage import WebPage
 
 
-class LoginPage(Page):
+class LoginPage(WebPage):
     username = Element(By.XPATH, "/html/body/div/form[1]//input[@name='email']", CONFIG.get("webdriver.wait.short"))
     password = Element(By.XPATH, "/html/body/div/form[1]//input[@name='password']", CONFIG.get("webdriver.wait.short"))
     rememberMe = Element(By.XPATH, "/html/body/div/form[1]//label/div/ins[@class='iCheck-helper']")

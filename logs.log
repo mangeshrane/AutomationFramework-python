@@ -91,3 +91,1151 @@ CORE 2019-04-02 12:02:26,490 config_reader.py L 19 __init__:  using default conf
 CORE 2019-04-02 12:02:26,495 config_reader.py L 25 _load_config:  Succesfully Loaded config
 CORE 2019-04-02 12:02:26,498 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
 CORE 2019-04-02 12:02:26,499 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 18:31:59,787 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-02 18:31:59,787 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-02 18:32:00,035 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-02 18:32:00,082 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 18:32:00,082 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 18:32:00,104 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-02 18:32:00,119 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 18:32:00,119 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 18:32:00,119 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-02 18:32:00,151 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-02 18:32:00,151 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-02 18:32:00,151 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-02 18:32:00,151 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-02 18:32:00,151 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-02 18:32:00,151 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 11:48:43,877 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 11:48:43,882 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 11:48:44,482 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:48:44,482 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:48:44,546 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 11:48:44,552 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 11:48:44,553 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 11:48:44,676 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 11:48:44,676 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 11:48:44,686 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 11:48:44,687 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 11:48:44,689 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 11:48:44,782 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:48:44,782 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:48:44,782 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:48:44,837 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 11:48:46,018 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 11:48:46,593 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 11:48:47,008 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 11:48:47,008 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 11:48:47,008 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 11:48:47,009 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:48:47,009 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 11:48:49,717 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 11:48:49,723 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:48:49,723 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x054782B0>
+CORE 2019-04-03 11:48:58,260 create_page.py L 22 __init__:  SearchPage page is loaded
+CORE 2019-04-03 11:48:59,746 create_page.py L 22 __init__:  SearchPage page is loaded
+CORE 2019-04-03 11:49:02,228 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 11:49:02,228 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 11:49:02,229 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 11:49:02,229 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:49:02,229 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 11:49:04,546 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 11:49:04,553 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:49:04,553 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0598F5B0>
+CORE 2019-04-03 11:49:07,104 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 11:49:07,968 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 11:49:08,278 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:49:21,131 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 11:49:21,131 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 11:49:21,131 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 11:49:21,131 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:49:21,132 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 11:49:23,402 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 11:49:23,410 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:49:23,410 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x05BD6850>
+CORE 2019-04-03 11:49:30,222 create_page.py L 22 __init__:  SearchPage page is loaded
+CORE 2019-04-03 11:51:52,118 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 11:51:52,123 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 11:51:52,397 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:51:52,398 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:51:52,413 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 11:51:52,422 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 11:51:52,422 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 11:51:52,432 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 11:51:52,432 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 11:51:52,434 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 11:51:52,435 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 11:51:52,435 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 11:51:52,512 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:51:52,512 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:51:52,512 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:51:52,573 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 11:51:53,683 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 11:51:54,127 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 11:51:54,422 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 11:51:54,422 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 11:51:54,423 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 11:51:54,423 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:51:54,423 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 11:51:56,707 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 11:51:56,713 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:51:56,714 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x046E70B0>
+CORE 2019-04-03 11:51:59,263 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 11:51:59,287 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 11:52:03,306 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 11:52:03,322 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 11:52:07,721 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 11:52:07,722 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 11:52:07,722 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 11:52:07,723 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:52:07,723 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 11:52:10,015 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 11:52:10,022 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:52:10,023 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04BD2070>
+CORE 2019-04-03 11:52:12,193 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 11:52:13,002 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 11:52:13,014 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 11:52:13,014 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 11:52:13,027 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 11:52:13,312 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 11:52:13,379 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 11:52:13,447 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:52:16,806 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 11:52:16,814 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:52:16,818 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 11:52:29,855 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 11:52:29,856 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 11:52:29,856 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 11:52:29,857 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:52:29,857 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 11:52:32,152 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 11:52:32,160 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:52:32,160 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04C05890>
+CORE 2019-04-03 11:52:39,220 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 11:52:39,241 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 11:59:23,086 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 11:59:23,091 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 11:59:23,367 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:59:23,368 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:59:23,382 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 11:59:23,388 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 11:59:23,388 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 11:59:23,397 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 11:59:23,398 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 11:59:23,400 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 11:59:23,400 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 11:59:23,401 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 11:59:23,414 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:59:23,414 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:59:23,414 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:59:23,441 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 11:59:24,617 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 11:59:25,216 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 11:59:25,520 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 11:59:25,520 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 11:59:25,521 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 11:59:25,521 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:59:25,521 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 11:59:27,800 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 11:59:27,807 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:59:27,808 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x05486D10>
+CORE 2019-04-03 11:59:32,755 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 11:59:32,785 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 11:59:36,489 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 11:59:36,504 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 11:59:40,700 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 11:59:40,700 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 11:59:40,700 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 11:59:40,700 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:59:40,700 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 11:59:42,881 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 11:59:42,885 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 11:59:42,885 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0597BD10>
+CORE 2019-04-03 11:59:45,790 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 11:59:47,234 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 11:59:47,256 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 11:59:47,256 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 11:59:47,296 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 11:59:47,380 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 11:59:47,426 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 11:59:47,465 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:59:53,276 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 11:59:53,283 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 11:59:53,286 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:00:06,288 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:00:06,289 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:00:06,289 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:00:06,290 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:00:06,290 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:00:08,504 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:00:08,509 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:00:08,510 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x059C46B0>
+CORE 2019-04-03 12:00:15,957 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:00:15,990 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:11:08,265 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:11:08,270 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:11:09,619 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:11:09,624 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:11:09,664 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:11:09,670 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:11:09,822 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:11:09,828 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:11:09,867 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:11:09,873 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:11:09,911 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:09,911 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:09,927 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:11:09,930 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:11:09,931 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:11:09,942 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:11:09,942 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:11:09,947 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:11:09,947 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:11:09,947 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:11:09,951 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:09,951 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:09,966 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:09,967 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:09,967 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:09,967 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:11:09,972 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:11:09,972 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:11:09,981 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:11:09,981 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:11:09,984 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:11:09,984 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:11:09,985 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:11:09,999 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:09,999 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:09,999 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:10,113 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:10,113 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:10,128 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:11:10,131 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:11:10,132 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:11:10,140 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:11:10,140 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:11:10,143 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:11:10,143 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:11:10,144 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:11:10,147 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:10,147 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:10,158 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:10,158 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:10,158 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:10,161 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:11:10,165 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:11:10,165 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:11:10,174 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:11:10,174 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:11:10,177 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:11:10,177 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:11:10,177 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:11:10,192 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:10,192 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:10,192 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:10,212 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:11:10,212 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:11:10,212 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:11:10,214 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:11:10,214 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:11:10,215 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:11:10,215 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:10,215 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:11:10,920 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:11:10,921 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:11:10,921 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:11:10,922 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:10,922 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:11:10,926 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:11:10,926 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:11:10,926 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:11:10,926 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:10,926 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:11:11,620 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:11:11,620 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:11:11,621 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:11:11,621 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:11,621 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:11:12,402 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:11:12,404 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:12,404 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x053718D0>
+CORE 2019-04-03 12:11:13,150 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:11:13,157 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:13,158 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x051B5470>
+CORE 2019-04-03 12:11:13,214 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:11:13,219 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:13,219 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0503E990>
+CORE 2019-04-03 12:11:13,786 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:11:13,794 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:13,794 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0536C910>
+CORE 2019-04-03 12:11:14,542 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:11:14,543 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:11:14,543 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:11:14,543 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:14,544 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:11:15,304 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:11:15,304 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:11:15,304 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:11:15,304 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:15,304 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:11:16,649 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:11:16,670 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:11:16,680 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:11:16,681 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:16,682 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x053A7630>
+CORE 2019-04-03 12:11:17,504 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:11:17,508 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:17,509 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x051B2950>
+CORE 2019-04-03 12:11:17,510 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:18,620 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:11:18,644 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:11:19,043 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:11:19,830 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:11:19,849 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:11:19,850 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:11:19,882 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:11:19,947 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:11:19,994 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:11:20,044 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:11:23,500 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:11:25,657 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:11:25,658 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:11:25,658 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:11:25,658 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:25,659 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:11:27,837 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:11:27,838 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:11:27,838 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x053A7F70>
+CORE 2019-04-03 12:11:31,128 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:11:31,150 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:14:05,520 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:14:05,525 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:14:06,782 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:14:06,789 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:14:06,846 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:14:06,851 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:14:06,945 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:14:06,951 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:14:07,082 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:14:07,088 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:14:07,110 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,110 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,131 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:14:07,135 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:14:07,136 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:14:07,147 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:14:07,147 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:14:07,149 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,149 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,149 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:14:07,149 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:14:07,150 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:14:07,164 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:14:07,167 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:14:07,168 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:14:07,169 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,169 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,169 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,176 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:14:07,176 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:14:07,179 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:14:07,179 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:14:07,179 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:14:07,196 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,196 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,196 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,251 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,252 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,266 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:14:07,269 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:14:07,270 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:14:07,278 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:14:07,278 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:14:07,281 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:14:07,281 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:14:07,281 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:14:07,296 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,296 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,296 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,359 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,359 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,373 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:14:07,376 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:14:07,376 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:14:07,385 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:14:07,385 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:14:07,387 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:14:07,388 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:14:07,388 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:14:07,401 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,402 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,402 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:14:07,420 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:14:07,421 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:14:07,421 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:14:07,424 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:14:07,424 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:14:07,424 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:14:07,424 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:07,424 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:14:07,898 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:14:07,898 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:14:07,899 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:14:07,899 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:07,899 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:14:07,913 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:14:07,913 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:14:07,913 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:14:07,913 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:07,914 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:14:08,585 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:14:08,586 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:14:08,586 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:14:08,586 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:08,586 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:14:09,538 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:14:09,540 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:09,540 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x044927F0>
+CORE 2019-04-03 12:14:10,101 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:14:10,105 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:10,105 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04C5FB30>
+CORE 2019-04-03 12:14:10,158 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:14:10,163 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:10,163 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04DFDA70>
+CORE 2019-04-03 12:14:10,773 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:14:10,777 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:10,777 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04C90390>
+CORE 2019-04-03 12:14:11,676 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:14:11,677 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:14:11,677 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:14:11,677 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:11,678 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:14:12,241 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:14:12,242 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:14:12,242 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:14:12,243 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:12,243 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:14:13,870 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:14:13,875 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:13,875 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x044CC7D0>
+CORE 2019-04-03 12:14:14,467 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:14:14,469 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:14,469 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04CB5750>
+CORE 2019-04-03 12:14:14,470 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:14:15,861 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:14:15,862 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:14:15,887 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:14:15,895 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:14:16,045 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:14:16,950 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:14:16,973 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:14:16,973 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:14:16,995 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:14:17,098 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:14:17,142 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:14:17,187 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:14:20,913 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:14:23,024 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:14:23,025 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:14:23,025 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:14:23,026 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:23,026 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:14:25,233 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:14:25,237 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:14:25,237 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x044CCDB0>
+CORE 2019-04-03 12:14:31,782 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:14:31,798 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:16:08,847 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:16:08,853 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:16:10,142 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:16:10,147 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:16:10,186 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:16:10,192 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:16:10,263 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:16:10,268 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:16:10,371 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:16:10,376 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:16:10,436 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,436 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,451 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:16:10,454 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:16:10,455 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:16:10,463 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:16:10,463 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:16:10,466 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:16:10,466 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:16:10,467 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:16:10,475 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,476 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,492 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:16:10,495 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:16:10,495 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,495 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,495 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,504 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:16:10,504 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:16:10,506 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:16:10,507 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:16:10,507 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:16:10,526 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,526 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,526 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,549 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,549 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,564 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:16:10,567 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:16:10,567 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:16:10,576 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:16:10,576 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:16:10,579 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:16:10,579 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:16:10,579 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:16:10,594 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,594 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,594 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,659 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,659 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,674 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:16:10,677 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:16:10,677 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:16:10,686 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:16:10,686 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:16:10,688 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:16:10,688 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:16:10,689 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:16:10,703 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,703 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,703 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:16:10,721 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:16:10,721 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:16:10,721 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:16:10,725 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:16:10,725 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:16:10,726 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:16:10,726 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:10,726 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:16:11,086 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:16:11,086 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:16:11,087 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:16:11,087 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:11,087 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:16:11,092 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:16:11,092 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:16:11,092 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:16:11,092 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:11,092 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:16:11,729 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:16:11,729 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:16:11,729 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:16:11,729 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:11,729 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:16:12,861 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:16:12,863 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:12,863 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04895390>
+CORE 2019-04-03 12:16:13,304 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:16:13,313 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:13,314 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x048938D0>
+CORE 2019-04-03 12:16:13,362 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:16:13,366 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:13,366 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x051AE930>
+CORE 2019-04-03 12:16:14,111 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:16:14,118 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:14,119 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04893830>
+CORE 2019-04-03 12:16:14,984 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:16:14,984 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:16:14,984 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:16:14,984 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:14,984 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:16:15,448 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:16:15,449 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:16:15,449 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:16:15,449 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:15,449 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:16:15,518 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:16:15,541 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:16:16,192 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:16:16,214 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:16:17,139 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:16:17,141 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:17,141 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04891FD0>
+CORE 2019-04-03 12:16:17,640 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:16:17,644 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:17,644 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x048EB5F0>
+CORE 2019-04-03 12:16:17,678 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:16:19,837 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:16:20,676 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:16:20,695 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:16:20,695 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:16:20,716 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:16:20,813 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:16:20,861 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:16:20,912 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:16:26,282 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:16:28,396 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:16:28,396 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:16:28,397 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:16:28,397 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:28,397 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:16:30,597 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:16:30,601 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:16:30,601 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04891670>
+CORE 2019-04-03 12:16:32,636 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:16:32,668 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:18:30,588 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:18:30,593 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:18:30,867 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:18:30,868 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:18:30,883 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:18:30,886 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:18:30,886 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 12:18:30,895 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:18:30,896 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:18:30,898 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 12:18:30,898 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 12:18:30,899 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 12:18:30,914 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:18:30,915 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:18:30,915 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:18:30,931 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:18:31,974 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:18:32,413 config_reader.py L 34 get:  config returning api.request.timeout: 20
+CORE 2019-04-03 12:18:32,703 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:18:32,704 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:18:32,704 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:18:32,705 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:18:32,705 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:18:34,970 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:18:34,975 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:18:34,975 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0462AE10>
+CORE 2019-04-03 12:18:41,823 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:18:41,848 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:18:48,135 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:18:48,153 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:18:53,044 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:18:53,045 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:18:53,045 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:18:53,046 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:18:53,046 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:18:55,269 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:18:55,271 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:18:55,271 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04B26EF0>
+CORE 2019-04-03 12:18:57,470 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:18:58,414 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:18:58,432 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:18:58,432 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:18:58,456 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:18:58,552 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:18:58,615 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:18:58,664 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:19:01,918 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:19:01,933 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:19:01,937 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:19:14,974 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:19:14,974 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:19:14,975 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:19:14,975 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:19:14,975 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:19:17,237 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:19:17,241 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:19:17,242 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04B6B1B0>
+CORE 2019-04-03 12:19:25,074 create_page.py L 23 get:  SearchPage page is loaded
+CORE 2019-04-03 12:19:25,105 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 12:21:07,174 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:21:07,179 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:21:07,318 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:21:07,318 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:21:07,318 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:21:07,318 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:21:07,319 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:21:07,319 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:21:07,326 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:21:07,326 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:21:07,326 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:21:07,326 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:21:07,326 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:21:09,499 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:21:09,502 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:21:09,503 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x042C1ED0>
+CORE 2019-04-03 12:21:12,736 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:21:13,558 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:21:13,580 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:21:13,580 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:21:13,601 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:21:13,693 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:21:13,772 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:21:13,850 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:21:13,856 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:21:13,869 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:21:13,873 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:25:14,486 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:25:14,491 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:25:14,634 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:25:14,634 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:25:14,635 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:25:14,635 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:25:14,635 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:25:14,636 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:25:14,642 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:25:14,643 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:25:14,643 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:25:14,643 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:25:14,643 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:25:16,892 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:25:16,897 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:25:16,897 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x042AFE50>
+CORE 2019-04-03 12:25:19,910 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:25:20,779 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:25:20,793 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:25:20,794 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:25:20,808 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:25:21,040 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:25:21,092 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:29:03,783 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:29:03,788 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:29:03,929 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:29:03,929 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:29:03,930 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:29:03,930 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:29:03,930 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:29:03,931 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:29:03,937 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:29:03,938 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:29:03,938 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:29:03,938 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:29:03,938 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:29:06,183 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:29:06,190 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:29:06,191 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x03F92E30>
+CORE 2019-04-03 12:29:08,301 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:29:09,176 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:29:09,197 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:29:09,197 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:29:09,232 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:29:09,339 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:29:09,391 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:33:31,490 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:33:31,495 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:33:31,638 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:33:31,638 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:33:31,639 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:33:31,639 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:33:31,639 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:33:31,640 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:33:31,647 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:33:31,647 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:33:31,647 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:33:31,647 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:33:31,647 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:33:33,895 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:33:33,902 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:33:33,903 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04A45DD0>
+CORE 2019-04-03 12:33:36,295 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:33:37,091 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:33:37,111 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:33:37,111 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:33:37,138 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:33:37,232 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:33:37,278 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:33:37,328 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:33:37,334 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:33:37,345 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:33:37,352 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:34:30,657 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:34:30,662 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:34:30,807 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:34:30,807 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:34:30,808 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:34:30,808 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:34:30,808 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:34:30,809 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:34:30,815 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:34:30,816 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:34:30,816 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:34:30,816 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:34:30,816 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:34:33,066 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:34:33,070 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:34:33,071 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x046D7E70>
+CORE 2019-04-03 12:34:36,111 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:34:36,967 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:34:36,989 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:34:36,989 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:34:37,016 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:34:37,101 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:34:37,149 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:34:37,194 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:34:41,280 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:34:41,293 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:34:41,298 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:36:12,365 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:36:12,370 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:36:12,517 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:36:12,517 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:36:12,518 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:36:12,518 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:36:12,518 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:36:12,519 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:36:12,527 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:36:12,527 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:36:12,527 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE 2019-04-03 12:36:12,527 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:36:12,527 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:36:14,704 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:36:14,707 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:36:14,707 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04EAFE70>
+CORE 2019-04-03 12:36:17,221 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:36:18,170 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:36:18,190 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:36:18,190 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:36:18,206 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:36:18,400 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:36:18,450 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:36:18,497 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:36:22,600 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:36:22,612 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:36:22,617 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:37:20,495 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:37:20,500 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:37:20,639 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:37:20,639 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:37:20,640 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:37:20,640 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:37:20,640 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:37:20,641 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:37:20,648 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:37:20,648 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:37:20,648 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:37:20,648 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:37:20,648 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:37:22,791 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:37:22,795 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:37:22,795 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04059DF0>
+CORE 2019-04-03 12:37:25,159 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:37:26,282 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:37:26,294 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:37:26,294 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:37:26,307 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:37:26,574 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:37:26,639 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:37:26,692 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:37:30,995 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:37:31,009 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:37:31,015 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:39:16,363 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:39:16,368 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:39:16,552 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:39:16,552 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:39:16,553 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:39:16,553 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:39:16,553 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:39:16,554 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:39:16,560 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:39:16,560 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:39:16,560 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 12:39:16,560 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:39:16,561 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:39:18,738 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:39:18,746 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:39:18,747 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04054C50>
+CORE 2019-04-03 12:39:21,012 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:39:21,833 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:39:21,846 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:39:21,846 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:39:21,858 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:39:22,132 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:39:22,199 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:39:22,258 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:39:25,631 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:45:33,705 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:45:33,711 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:45:33,848 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:45:33,848 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:45:33,849 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:45:33,849 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:45:33,849 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:45:33,850 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:45:33,856 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:45:33,856 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:45:33,857 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE 2019-04-03 12:45:33,857 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:45:33,857 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:45:36,133 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:45:36,137 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:45:36,137 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x03FF1B30>
+CORE 2019-04-03 12:45:38,408 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:45:39,311 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:45:39,325 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:45:39,325 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:45:39,342 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:45:39,428 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:45:39,476 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:45:39,527 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:45:43,284 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:47:45,608 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:47:45,613 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:47:45,753 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:47:45,753 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:47:45,753 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:47:45,753 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:47:45,754 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:47:45,754 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:47:45,760 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:47:45,760 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:47:45,760 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE 2019-04-03 12:47:45,761 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:47:45,761 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:47:48,062 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:47:48,066 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:47:48,066 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04333BF0>
+CORE 2019-04-03 12:47:50,303 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:47:50,322 create_page.py L 23 get:  LoginPage page is loaded
+CORE 2019-04-03 12:47:50,322 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:47:50,322 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:47:50,343 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:47:50,415 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:47:50,461 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:47:50,503 dashboard.py L 33 is_loaded:  Administator Login
+CORE 2019-04-03 12:47:50,503 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:47:55,360 create_page.py L 23 get:  Dashboard page is loaded
+CORE 2019-04-03 12:55:50,127 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:55:50,132 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:55:50,276 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:55:50,277 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:55:50,293 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:55:50,293 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:55:50,293 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:55:50,294 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:55:50,304 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:55:50,304 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:55:50,305 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE 2019-04-03 12:55:50,305 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:55:50,305 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:55:52,626 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:55:52,628 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:55:52,628 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04E32C30>
+CORE 2019-04-03 12:55:56,750 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:55:56,769 create_page.py L 28 _create_page:  LoginPage page is loaded
+CORE 2019-04-03 12:55:56,769 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:55:56,769 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:55:56,789 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:55:56,884 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:55:56,969 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:55:57,048 dashboard.py L 33 is_loaded:  Administator Login
+CORE 2019-04-03 12:55:57,048 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:56:02,214 create_page.py L 28 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 12:58:33,980 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 12:58:33,985 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 12:58:34,115 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:58:34,115 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:58:34,122 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:58:34,122 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:58:34,122 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 12:58:34,123 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 12:58:34,129 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 12:58:34,129 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 12:58:34,129 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE 2019-04-03 12:58:34,129 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:58:34,129 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 12:58:36,452 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 12:58:36,455 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 12:58:36,455 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04ABEBF0>
+CORE 2019-04-03 12:58:38,485 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:58:39,352 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:58:39,373 create_page.py L 29 _create_page:  LoginPage page is loaded
+CORE 2019-04-03 12:58:40,207 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:58:40,223 create_page.py L 29 _create_page:  LoginPage page is loaded
+CORE 2019-04-03 12:58:40,223 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 12:58:40,223 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 12:58:40,237 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 12:58:40,341 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 12:58:40,406 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 12:58:40,466 dashboard.py L 33 is_loaded:  Administator Login
+CORE 2019-04-03 12:58:40,466 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 12:58:44,586 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 13:01:03,613 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 13:01:03,618 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 13:01:03,779 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:01:03,779 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:01:03,780 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:01:03,780 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:01:03,780 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:01:03,781 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 13:01:03,787 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 13:01:03,787 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 13:01:03,787 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE 2019-04-03 13:01:03,787 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 13:01:03,787 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 13:01:06,017 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 13:01:06,021 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 13:01:06,022 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04055C70>
+CORE 2019-04-03 13:01:08,000 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:01:08,828 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:01:08,853 create_page.py L 29 _create_page:  LoginPage page is loaded
+CORE 2019-04-03 13:01:09,636 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:01:09,663 create_page.py L 29 _create_page:  LoginPage page is loaded
+CORE 2019-04-03 13:01:09,663 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 13:01:09,663 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 13:01:09,683 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 13:01:09,774 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 13:01:09,821 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:01:09,867 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 13:01:16,055 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 13:01:16,063 test_loginPage.py L 26 test_login:  PAGE TITLE Dashboard
+CORE 2019-04-03 13:02:51,268 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 13:02:51,273 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 13:02:51,414 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:02:51,414 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:02:51,415 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:02:51,415 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:02:51,415 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:02:51,416 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 13:02:51,423 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 13:02:51,423 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 13:02:51,423 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE 2019-04-03 13:02:51,423 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 13:02:51,423 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 13:02:53,679 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 13:02:53,683 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 13:02:53,683 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0405A550>
+CORE 2019-04-03 13:02:55,792 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:02:55,806 create_page.py L 29 _create_page:  LoginPage page is loaded
+CORE 2019-04-03 13:02:55,806 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 13:02:55,806 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 13:02:55,818 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 13:02:56,188 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 13:02:56,236 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:02:56,276 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 13:03:02,270 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 13:03:02,275 test_loginPage.py L 26 test_login:  PAGE TITLE Dashboard
+CORE 2019-04-03 13:03:02,285 test_loginPage.py L 29 test_accounts:  =====--->Dashboard
+CORE 2019-04-03 13:03:02,286 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 13:03:02,289 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 13:05:39,431 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 13:05:39,436 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 13:05:39,574 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:05:39,574 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:05:39,574 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:05:39,575 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:05:39,575 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:05:39,575 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 13:05:39,582 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 13:05:39,582 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 13:05:39,582 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE 2019-04-03 13:05:39,582 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 13:05:39,582 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 13:05:41,939 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 13:05:41,943 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 13:05:41,943 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04830EF0>
+CORE 2019-04-03 13:05:44,286 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:05:44,311 create_page.py L 29 _create_page:  LoginPage page is loaded
+CORE 2019-04-03 13:05:44,311 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 13:05:44,312 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 13:05:44,345 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 13:05:44,431 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 13:05:44,490 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:05:49,698 test_loginPage.py L 29 test_accounts:  =====--->Dashboard
+CORE 2019-04-03 13:07:47,241 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 13:07:47,246 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 13:07:47,386 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:07:47,386 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:07:47,387 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:07:47,387 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:07:47,387 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:07:47,388 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 13:07:47,394 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 13:07:47,394 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 13:07:47,394 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 13:07:47,394 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 13:07:47,394 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 13:07:49,672 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 13:07:49,676 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 13:07:49,677 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04052FB0>
+CORE 2019-04-03 13:07:51,802 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:07:52,599 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:07:52,620 create_page.py L 29 _create_page:  LoginPage page is loaded
+CORE 2019-04-03 13:07:53,387 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:07:53,414 create_page.py L 29 _create_page:  LoginPage page is loaded
+CORE 2019-04-03 13:07:53,415 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 13:07:53,415 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 13:07:53,445 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 13:07:53,519 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 13:07:53,570 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:07:57,330 dashboard.py L 34 is_loaded:  --> <selenium.webdriver.support.expected_conditions.title_is object at 0x042CB3B0>
+CORE 2019-04-03 13:07:57,330 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 13:07:57,336 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 13:07:57,340 dashboard.py L 34 is_loaded:  --> <selenium.webdriver.support.expected_conditions.title_is object at 0x042CB3D0>
+CORE 2019-04-03 13:07:57,340 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 13:07:57,343 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 13:07:57,347 dashboard.py L 34 is_loaded:  --> <selenium.webdriver.support.expected_conditions.title_is object at 0x042CB410>
+CORE 2019-04-03 13:07:57,347 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 13:07:57,351 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 13:07:57,355 test_loginPage.py L 26 test_login:  PAGE TITLE Dashboard
+CORE 2019-04-03 13:07:57,368 test_loginPage.py L 29 test_accounts:  =====--->Dashboard
+CORE 2019-04-03 13:07:57,372 dashboard.py L 34 is_loaded:  --> <selenium.webdriver.support.expected_conditions.title_is object at 0x04052C50>
+CORE 2019-04-03 13:07:57,372 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 13:07:57,376 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 13:11:08,527 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 13:11:08,531 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 13:11:08,670 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:11:08,670 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:11:08,671 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:11:08,671 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:11:08,671 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 13:11:08,672 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 13:11:08,678 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 13:11:08,678 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 13:11:08,678 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 13:11:08,678 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 13:11:08,678 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 13:11:10,941 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 13:11:10,949 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 13:11:10,949 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04055810>
+CORE 2019-04-03 13:11:13,141 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:11:13,984 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:11:14,017 create_page.py L 29 _create_page:  LoginPage page is loaded
+CORE 2019-04-03 13:11:14,834 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:11:14,862 create_page.py L 29 _create_page:  LoginPage page is loaded
+CORE 2019-04-03 13:11:14,862 config_reader.py L 34 get:  config returning application.username: admin@phptravels.com
+CORE 2019-04-03 13:11:14,862 config_reader.py L 34 get:  config returning application.password: demoadmin
+CORE 2019-04-03 13:11:14,874 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='email'] 
+CORE 2019-04-03 13:11:14,940 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]//input[@name='password'] 
+CORE 2019-04-03 13:11:14,988 element.py L 38 __get__:  returning element xpath=/html/body/div/form[1]/button[@type='submit'] 
+CORE 2019-04-03 13:11:19,428 dashboard.py L 34 is_loaded:  --> <selenium.webdriver.support.expected_conditions.title_is object at 0x042DB250>
+CORE 2019-04-03 13:11:19,428 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 13:11:19,432 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 13:11:19,436 dashboard.py L 34 is_loaded:  --> <selenium.webdriver.support.expected_conditions.title_is object at 0x042DB2F0>
+CORE 2019-04-03 13:11:19,436 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 13:11:19,441 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 13:11:19,444 dashboard.py L 34 is_loaded:  --> <selenium.webdriver.support.expected_conditions.title_is object at 0x04076D90>
+CORE 2019-04-03 13:11:19,444 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 13:11:19,448 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 13:11:19,451 test_loginPage.py L 26 test_login:  PAGE TITLE Dashboard
+CORE 2019-04-03 13:11:19,463 test_loginPage.py L 29 test_accounts:  =====--->Dashboard
+CORE 2019-04-03 13:11:19,467 dashboard.py L 34 is_loaded:  --> <selenium.webdriver.support.expected_conditions.title_is object at 0x04055330>
+CORE 2019-04-03 13:11:19,467 config_reader.py L 34 get:  config returning webdriver.wait.long: 30
+CORE 2019-04-03 13:11:19,470 create_page.py L 29 _create_page:  Dashboard page is loaded
+CORE 2019-04-03 15:52:43,083 config_reader.py L 19 __init__:  using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE 2019-04-03 15:52:43,088 config_reader.py L 25 _load_config:  Succesfully Loaded config
+CORE 2019-04-03 15:52:43,237 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 15:52:43,237 config_reader.py L 34 get:  config returning webdriver.wait.short: 10
+CORE 2019-04-03 15:52:43,253 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 15:52:43,255 config_reader.py L 34 get:  config returning tests.browser.scope: class
+CORE 2019-04-03 15:52:43,256 csv_reader.py L 16 get_data_map:  returning CSV data
+CORE 2019-04-03 15:52:43,266 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 15:52:43,266 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 15:52:43,268 excel_reader.py L 15 get_data_map:  using excel sheet data.xlsx
+CORE 2019-04-03 15:52:43,268 excel_reader.py L 36 get_data_map:  returning data from excel
+CORE 2019-04-03 15:52:43,269 json_reader.py L 16 get_data_map:  returning data from json file : data.json
+CORE 2019-04-03 15:52:43,280 config_reader.py L 34 get:  config returning tests.browser.name: chrome
+CORE 2019-04-03 15:52:43,280 web_drivers.py L 84 get:  CORE.DRIVER not found setting browser : chrome
+CORE 2019-04-03 15:52:43,280 config_reader.py L 34 get:  config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE 2019-04-03 15:52:43,280 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 15:52:43,280 config_reader.py L 34 get:  config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE 2019-04-03 15:52:46,019 config_reader.py L 34 get:  config returning webdriver.implicit_wait: 10
+CORE 2019-04-03 15:52:46,023 config_reader.py L 34 get:  config returning webdriver.type: local
+CORE 2019-04-03 15:52:46,024 web_drivers.py L 39 chrome:  returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04840850>
+CORE 2019-04-03 15:52:48,885 create_page.py L 29 _create_page:  SearchPage page is loaded
+CORE 2019-04-03 15:52:48,906 element.py L 38 __get__:  returning element name=q 
+CORE 2019-04-03 15:52:50,825 create_page.py L 29 _create_page:  SearchPage page is loaded
+CORE 2019-04-03 15:52:50,840 element.py L 38 __get__:  returning element name=q 

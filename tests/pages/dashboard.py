@@ -3,15 +3,16 @@ Created on Feb 11, 2019
 
 @author: mrane
 '''
-from core.page.page import Page
-from core.page.element import Element
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from core.configuration import CONFIG
+from core.web.webpage import WebPage
+from core.web.element import Element
+from core.logger import LOG
 
 
-class Dashboard(Page):
+class Dashboard(WebPage):
     '''
     classdocs
     '''
@@ -29,7 +30,7 @@ class Dashboard(Page):
         pass
 
     def is_loaded(self):
-        assert WebDriverWait(self.driver, CONFIG.get("webdriver.wait.short", 10)).until(
+        assert WebDriverWait(self.driver, CONFIG.get("webdriver.wait.long", 20)).until(
             expected_conditions.title_is("Dashboard"), "Title does not match")
 
     def click_on_accounts(self):
