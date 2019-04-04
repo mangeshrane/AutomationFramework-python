@@ -6,7 +6,6 @@ from core.configuration import CONFIG
 import allure
 from allure_commons.types import AttachmentType
 from core.browsers.web_drivers import WebDrivers
-# pytest_plugins = 'core.reporter.pytest_plugin'
 
 def pytest_addoption(parser):
     parser.addoption("--config", action="store")

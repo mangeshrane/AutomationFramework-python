@@ -10,6 +10,8 @@ from core.configuration import CONFIG
 from core.api.response import Response
 import json
 from requests.auth import HTTPDigestAuth
+from core.logger import LOG
+from pprint import pformat
 
 
 class Request(object):
@@ -132,6 +134,7 @@ class Request(object):
         self._request = self._request.prepare()
 
     def _get_resp(self):
+        print("API Request : \n\t" + pformat(str({k: v for k, v in self._request.__dict__.items()})))
         return Response(self._session.send(self._request,
                                            stream=self.stream,
                                            verify=self._cert_file,

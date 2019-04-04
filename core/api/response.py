@@ -7,6 +7,8 @@ import json
 
 from requests.models import Response as rp
 from collections import namedtuple
+from core.logger import LOG
+from pprint import pformat
 
 class Response(object):
     '''
@@ -17,6 +19,10 @@ class Response(object):
         '''
         Constructor
         '''
+        print("API Response body : \n\t" + pformat(str(response.text)))
+        print("API Response headers : \n\t" + pformat(str(response.headers)))
+        print("API Response cookies : \n\t" + pformat(str(response.cookies)))
+        print("API Response status code : \n\t" + pformat(str(response.status_code)))
         if not isinstance(response, rp):
             raise ValueError
         self.url = response.url
@@ -41,6 +47,15 @@ class Response(object):
     def json2obj(self, data):
         return json.loads(data, object_hook=self._json_object_hook)
     
+    def assert_status_code(self, status_code):
+        assert status_code == self.status_code, "Status code doesn't match expected {} found {}".format(self.status_code, status_code)
+    
+    def assert_response_contains(self, text):
+        assert text in self.body, "Response body doesn't contains " + text
+    
+    def assert_response_header_contains(self, key, value):
+        assert self.headers.get(key, None) == value, "Response headers doesn't contains {}:{}".format(
+            key, value)
 
 
 class PyJSON(object):
