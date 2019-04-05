@@ -1495,3 +1495,67 @@ CORE-config_reader.py-25-_load_config: Succesfully Loaded config
 CORE-config_reader.py-34-get: config returning api.request.timeout: 20
 CORE-config_reader.py-34-get: config returning api.request.timeout: 20
 CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x046BDA50>
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-element.py-38-__get__: returning element name=q 
+CORE-element.py-38-__get__: returning element name=q 
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04AA2A10>
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-element.py-38-__get__: returning element name=q 
+CORE-element.py-38-__get__: returning element name=q 
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04C9F5B0>
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-element.py-38-__get__: returning element name=q 
+CORE-element.py-38-__get__: returning element name=q 
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
