@@ -22,6 +22,7 @@ class Config(object):
     def _load_config(self, filename):
         config_yaml = open(filename, 'r')
         self.yml_dict = yaml.load(config_yaml)
+        print(self.yml_dict)
         LOG.info("Succesfully Loaded config")
         config_yaml.close()
 
@@ -35,3 +36,5 @@ class Config(object):
             return tmp
         else:
             return default
+
+

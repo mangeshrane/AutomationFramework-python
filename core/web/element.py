@@ -31,12 +31,11 @@ class Element(object):
 
     def __get__(self, instance, owner):
         if self._wait:
-            _element = WebDriverWait(instance.driver, self._wait).until(
+            return WebDriverWait(instance.driver, self._wait).until(
                 EC.presence_of_element_located((self._by, self._locator)))
         else:
-            _element = instance.driver.find_element(self._by, self._locator)
+            return instance.driver.find_element(self._by, self._locator)
         LOG.info("returning element {}={} ".format(self._by, self._locator))
-        return _element
 
     def __set__(self, instance, name):
         pass

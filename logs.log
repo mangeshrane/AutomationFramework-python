@@ -1559,3 +1559,1606 @@ CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\Autom
 CORE-config_reader.py-25-_load_config: Succesfully Loaded config
 CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
 CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04C7F830>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04971690>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04368C90>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x050EB9D0>
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04593970>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0437AE10>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x048A4FD0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x048CC3B0>
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x045939F0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04397910>
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-config_reader.py-34-get: config returning application.username: admin@phptravels.com
+CORE-config_reader.py-34-get: config returning application.password: demoadmin
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-test_loginPage.py-26-test_login: PAGE TITLE Dashboard
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04593BD0>
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+ions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x05099D10>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x046E3E50>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04755F90>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0436B790>
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x05099850>
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0476B4F0>
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-config_reader.py-34-get: config returning application.username: admin@phptravels.com
+CORE-config_reader.py-34-get: config returning application.password: demoadmin
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-test_loginPage.py-26-test_login: PAGE TITLE Dashboard
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04EACB10>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04187A10>
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04EB6CB0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x043817F0>
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-config_reader.py-34-get: config returning application.username: admin@phptravels.com
+CORE-config_reader.py-34-get: config returning application.password: demoadmin
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-test_loginPage.py-26-test_login: PAGE TITLE Dashboard
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04959CD0>
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04B10CD0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04D25CF0>
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04B15BF0>
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04976030>
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-config_reader.py-34-get: config returning application.username: admin@phptravels.com
+CORE-config_reader.py-34-get: config returning application.password: demoadmin
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-test_loginPage.py-26-test_login: PAGE TITLE Dashboard
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04785130>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0473FCB0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04E4ACB0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x043819D0>
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04785FB0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x047451B0>
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-config_reader.py-34-get: config returning application.username: admin@phptravels.com
+CORE-config_reader.py-34-get: config returning application.password: demoadmin
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-test_loginPage.py-26-test_login: PAGE TITLE Dashboard
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x046F9330>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04C89F70>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x050897B0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0476A7F0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x047FAF90>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0436BAD0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x05491610>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0437E430>
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions', '--headless']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x046F9F10>
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x047FA8D0>
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-config_reader.py-34-get: config returning application.username: admin@phptravels.com
+CORE-config_reader.py-34-get: config returning application.password: demoadmin
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-test_loginPage.py-26-test_login: PAGE TITLE Dashboard
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+'--disable-extensions']
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensCORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x049D8090>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0478AB90>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04899090>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x043E9030>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04EB9030>
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0440DEB0>
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x047FCE70>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04382A10>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0478A090>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x043E9110>
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-config_reader.py-34-get: config returning application.username: admin@phptravels.com
+CORE-config_reader.py-34-get: config returning application.password: demoadmin
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-test_loginPage.py-26-test_login: PAGE TITLE Dashboard
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+me
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0438E7B0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04BB78D0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04394F90>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04769FB0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0437C890>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04800290>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04368870>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x05472A10>
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04BB77F0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04800370>
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-config_reader.py-34-get: config returning application.username: admin@phptravels.com
+CORE-config_reader.py-34-get: config returning application.password: demoadmin
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-test_loginPage.py-26-test_login: PAGE TITLE Dashboard
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x05706FB0>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x04898FB0>
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-config_reader.py-34-get: config returning application.username: admin@phptravels.com
+CORE-config_reader.py-34-get: config returning application.password: demoadmin
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-test_loginPage.py-26-test_login: PAGE TITLE Dashboard
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-16-get_data_map: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning tests.browser.name: chrome
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning webdriver.chrome.arguments: ['--disable-extensions']
+CORE-web_drivers.py-84-get: CORE.DRIVER not found setting browser : chrome
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+nts: ['--disable-extensions']
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning webdriver.chrome.driver: C:\chromedriver.exe
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x05298030>
+CORE-config_reader.py-34-get: config returning webdriver.implicit_wait: 10
+CORE-config_reader.py-34-get: config returning webdriver.type: local
+CORE-web_drivers.py-39-chrome: returning local chrome driver with <selenium.webdriver.chrome.options.Options object at 0x0438A8B0>
+CORE-create_page.py-29-_create_page: LoginPage page is loaded
+CORE-config_reader.py-34-get: config returning application.username: admin@phptravels.com
+CORE-config_reader.py-34-get: config returning application.password: demoadmin
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-test_loginPage.py-26-test_login: PAGE TITLE Dashboard
+CORE-config_reader.py-34-get: config returning webdriver.wait.long: 30
+CORE-create_page.py-29-_create_page: Dashboard page is loaded
+CORE-create_page.py-29-_create_page: SearchPage page is loaded
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-26-_load_config: Succesfully Loaded config
