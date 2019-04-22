@@ -18,15 +18,14 @@ class TestLoginPage(WebTest):
     classdocs
     '''
   
-    @pytest.mark.run(before="test_login")
     def test_login(self):
         print("running login")
         page = CreatePage.get(LoginPage, self.driver)
         page = page.login(CONFIG.get("application.username"), CONFIG.get("application.password"))
         LOG.info("PAGE TITLE " + self.driver.title)
   
-    def test_accounts(self):
-        page = CreatePage.get(Dashboard, self.driver)
-        page.click_on_accounts()
-        time.sleep(5)
+#     def test_accounts(self):
+#         page = CreatePage.get(Dashboard, self.driver)
+#         page.click_on_accounts()
+#         time.sleep(5)
 

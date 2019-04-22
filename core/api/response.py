@@ -7,7 +7,6 @@ import json
 
 from requests.models import Response as rp
 from collections import namedtuple
-from core.logger import LOG
 from pprint import pformat
 
 class Response(object):
@@ -44,7 +43,7 @@ class Response(object):
     def _json_object_hook(self, d):
         return namedtuple('response', d.keys())(*d.values())
 
-    def json2obj(self, data):
+    def _json2obj(self, data):
         return json.loads(data, object_hook=self._json_object_hook)
     
     def assert_status_code(self, status_code):

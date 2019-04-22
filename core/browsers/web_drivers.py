@@ -31,9 +31,10 @@ class WebDrivers(object):
             chrome_capabilities['platform'] = CONFIG.get("webdriver.remote.platform")
             chrome_capabilities['browserName'] = 'chrome'
             chrome_capabilities['javascriptEnabled'] = True
+            os.environ['webdriver.chrome.driver'] = CONFIG.get("webdriver.chrome.driver")
             driver = webdriver.Remote(
                     command_executor=CONFIG.get("webdriver.remote.url"),
-                    desired_capabilities=webdriver.DesiredCapabilities.CHROME,
+                    desired_capabilities=chrome_capabilities,
                     options=option)
         driver.implicitly_wait(CONFIG.get("webdriver.implicit_wait", 0))
         LOG.info("returning {0} chrome driver with {1}".format(CONFIG.get("webdriver.type", "local"), str(option)))

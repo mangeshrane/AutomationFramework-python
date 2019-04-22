@@ -10,7 +10,6 @@ from core.configuration import CONFIG
 from core.api.response import Response
 import json
 from requests.auth import HTTPDigestAuth
-from core.logger import LOG
 from pprint import pformat
 
 

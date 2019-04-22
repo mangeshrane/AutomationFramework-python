@@ -13,18 +13,18 @@ webdriver:
             platform: macOS 10.13
 
     remote:
-        url: 
-        platform: 
+        url: http://172.26.21.92:4444/wd/hub
+        platform: Windows
     
     # Available types: remote, local
-    type: local
+    type: remote
     
     chrome:
         driver: C:\chromedriver.exe
-        arguments: ["--disable-extensions"]
+        arguments: ["--disable-extensions", "--headless"]
     
     firefox:
-        driver: path
+        driver: C:\geckodriver.exe
         preferences:
             browser.download.dir: H:\Downloads
             browser.download.manager.showWhenStarting: False
@@ -34,9 +34,11 @@ webdriver:
     implicit_wait: 10
         
 tests:
+	mobile:
+	    scope: class
     browser:
         # chrome, firefox if local
-        name: chrome
+        name: firefox
         scope: class
         
 api:
