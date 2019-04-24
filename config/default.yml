@@ -11,18 +11,14 @@ webdriver:
             browserName: chrome 
             version: 66.0
             platform: macOS 10.13
-
     remote:
         url: http://172.26.21.92:4444/wd/hub
         platform: Windows
-    
     # Available types: remote, local
     type: remote
-    
     chrome:
         driver: C:\chromedriver.exe
         arguments: ["--disable-extensions", "--headless"]
-    
     firefox:
         driver: C:\geckodriver.exe
         preferences:
@@ -32,14 +28,26 @@ webdriver:
         short: 10
         long: 30
     implicit_wait: 10
-        
 tests:
 	mobile:
 	    scope: class
+	    no_reset: False
+	    full_reset: False
     browser:
         # chrome, firefox if local
         name: firefox
         scope: class
+mobile:
+    android:
+        browserName: 
+        deviceName: 
+        platformName:
+        app:
+        orientation:
+        platformVersion: 
+        appActivity:
+        
+        
         
 api:
     request:
