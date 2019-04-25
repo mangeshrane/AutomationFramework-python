@@ -5923,3 +5923,1013 @@ CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
 CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
 CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
 CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning tests.browser.scope: class
+CORE-csv_reader.py-13-get_data: returning CSV data
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-excel_reader.py-15-get_data_map: using excel sheet data.xlsx
+CORE-excel_reader.py-36-get_data_map: returning data from excel
+CORE-json_reader.py-16-get_data_map: returning data from json file : data.json
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning webdriver.wait.short: 10
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 08:51:18 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=df53ea865dffe236b76b30760a9aee40a1556182278; "
+ 'expires=Fri, 24-Apr-20 08:51:18 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 12:51:18 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf130b2e50cdad-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=df53ea865dffe236b76b30760a9aee40a1556182278 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-34-get: config returning tests.browser.name: firefox
+CORE-web_drivers.py-85-get: CORE.DRIVER not found setting browser : firefox
+CORE-config_reader.py-34-get: config returning webdriver.remote.platform: Windows
+CORE-config_reader.py-34-get: config returning webdriver.firefox.preferences: {'browser.download.dir': 'H:\\Downloads', 'browser.download.manager.showWhenStarting': False}
+CORE-config_reader.py-34-get: config returning webdriver.type: remote
+CORE-config_reader.py-34-get: config returning webdriver.remote.url: http://172.26.21.92:4444/wd/hub
+CORE-config_reader.py-34-get: config returning tests.browser.name: firefox
+CORE-web_drivers.py-85-get: CORE.DRIVER not found setting browser : firefox
+CORE-config_reader.py-34-get: config returning webdriver.remote.platform: Windows
+CORE-config_reader.py-34-get: config returning webdriver.firefox.preferences: {'browser.download.dir': 'H:\\Downloads', 'browser.download.manager.showWhenStarting': False}
+CORE-config_reader.py-34-get: config returning webdriver.type: remote
+CORE-config_reader.py-34-get: config returning webdriver.remote.url: http://172.26.21.92:4444/wd/hub
+CORE-config_reader.py-34-get: config returning tests.browser.name: firefox
+CORE-web_drivers.py-85-get: CORE.DRIVER not found setting browser : firefox
+CORE-config_reader.py-34-get: config returning webdriver.remote.platform: Windows
+CORE-config_reader.py-34-get: config returning webdriver.firefox.preferences: {'browser.download.dir': 'H:\\Downloads', 'browser.download.manager.showWhenStarting': False}
+CORE-config_reader.py-34-get: config returning webdriver.type: remote
+CORE-config_reader.py-34-get: config returning webdriver.remote.url: http://172.26.21.92:4444/wd/hub
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:32:06 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=db610bab441f589898ab5709e6e87bdd81556184726; "
+ 'expires=Fri, 24-Apr-20 09:32:06 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:32:06 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf4eca7e99b771-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=db610bab441f589898ab5709e6e87bdd81556184726 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:32:16 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=db913b4511da3ed3763af0a1a3fa54b551556184736; "
+ 'expires=Fri, 24-Apr-20 09:32:16 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:32:16 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf4f09b8bbcdc5-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=db913b4511da3ed3763af0a1a3fa54b551556184736 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:33:29 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=db8ac8ea78ddaea42019068b62b65fec71556184809; "
+ 'expires=Fri, 24-Apr-20 09:33:29 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:33:29 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf50d2bda4b77d-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=db8ac8ea78ddaea42019068b62b65fec71556184809 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:34:56 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d8edf2e07e382fd4f01a6e32bb34c577e1556184896; "
+ 'expires=Fri, 24-Apr-20 09:34:56 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:34:56 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf52f36e70b771-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d8edf2e07e382fd4f01a6e32bb34c577e1556184896 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:37:03 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=dc0c1a4bdee8d6ab83b9d0c39f0d52a6f1556185023; "
+ 'expires=Fri, 24-Apr-20 09:37:03 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:37:03 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf560a7f0ab7dd-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=dc0c1a4bdee8d6ab83b9d0c39f0d52a6f1556185023 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:38:40 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d61484e98a39ef9c9e9e507144633cdea1556185120; "
+ 'expires=Fri, 24-Apr-20 09:38:40 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:38:40 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf586cff7ecd95-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d61484e98a39ef9c9e9e507144633cdea1556185120 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:39:07 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=db084d0b21ddf44dfb01f7e068b2ef2f51556185147; "
+ 'expires=Fri, 24-Apr-20 09:39:07 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:39:07 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf59149fa8cd99-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=db084d0b21ddf44dfb01f7e068b2ef2f51556185147 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:39:25 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d33b244c3b22fbea69882d4328aa5f0bd1556185165; "
+ 'expires=Fri, 24-Apr-20 09:39:25 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:39:25 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf59829cfe6902-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d33b244c3b22fbea69882d4328aa5f0bd1556185165 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:54:01 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d4abcb97cdc60e1e0e3269dec1897b9721556186041; "
+ 'expires=Fri, 24-Apr-20 09:54:01 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:54:01 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf6ee9bb06bd5b-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d4abcb97cdc60e1e0e3269dec1897b9721556186041 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:54:53 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d7888ebd82ea832c671e3e159021368441556186093; "
+ 'expires=Fri, 24-Apr-20 09:54:53 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:54:53 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf702f5b24bd65-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d7888ebd82ea832c671e3e159021368441556186093 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:56:12 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d6d77874b961e9ac41d681be5a2a8a4421556186172; "
+ 'expires=Fri, 24-Apr-20 09:56:12 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:56:12 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf72176d44cdb9-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d6d77874b961e9ac41d681be5a2a8a4421556186172 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:56:32 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d7acb2ac093cb88fd28286adc1a971d421556186192; "
+ 'expires=Fri, 24-Apr-20 09:56:32 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:56:32 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf72989c91cda1-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d7acb2ac093cb88fd28286adc1a971d421556186192 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 09:59:46 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d7e35babf52229f5a7d92b54e215727231556186386; "
+ 'expires=Fri, 24-Apr-20 09:59:46 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 13:59:46 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf7752586dbd60-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d7e35babf52229f5a7d92b54e215727231556186386 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 10:10:47 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d3d380cc09948bb6f87aa54140ad65b331556187047; "
+ 'expires=Fri, 24-Apr-20 10:10:47 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 14:10:47 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf8779cd7aa8a5-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d3d380cc09948bb6f87aa54140ad65b331556187047 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 10:13:48 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d252a21db3997bffb8d7ac4358310f66a1556187228; "
+ 'expires=Fri, 24-Apr-20 10:13:48 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 14:13:48 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf8be22a02cdad-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d252a21db3997bffb8d7ac4358310f66a1556187228 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 10:22:10 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=daefceca45d3f36ad7a0a034978cc0a3c1556187730; "
+ 'expires=Fri, 24-Apr-20 10:22:10 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 14:22:10 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf9823df3dcdad-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=daefceca45d3f36ad7a0a034978cc0a3c1556187730 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 10:25:17 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=dfda9c5871fd78a568a559e7911bd14791556187917; "
+ 'expires=Fri, 24-Apr-20 10:25:17 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 14:25:17 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf9cb4489b69ac-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=dfda9c5871fd78a568a559e7911bd14791556187917 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 10:26:05 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=deb410b586cb25a59e43c56a9ed0391451556187965; "
+ 'expires=Fri, 24-Apr-20 10:26:05 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 14:26:05 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf9ddfbd6468cc-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=deb410b586cb25a59e43c56a9ed0391451556187965 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 10:26:34 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=dfb503df339e991127c597ad13bf15f951556187994; "
+ 'expires=Fri, 24-Apr-20 10:26:34 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 14:26:34 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccf9e963db1b7bf-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=dfb503df339e991127c597ad13bf15f951556187994 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 10:53:23 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d7d4a5760dce45852fe188e51c96da18f1556189603; "
+ 'expires=Fri, 24-Apr-20 10:53:23 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 14:53:23 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccfc5db6e9fb7e9-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d7d4a5760dce45852fe188e51c96da18f1556189603 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-delayed_assertions.py-44-_log_failure: 0 : Assertion error occured in file test_api.py at line no 20, in test test_get_posts
+                    assertion.expect(response.body.userId == 3)
+
+        
+CORE-delayed_assertions.py-52-_report_failures: 
+Asserting all expectations: 
+	In test test_get_posts at line no 21
+
+CORE-delayed_assertions.py-53-_report_failures: Failed Expectations:1
+
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 10:57:42 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=dc6681c4f2e8aeab9156680e3d60a63361556189862; "
+ 'expires=Fri, 24-Apr-20 10:57:42 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 14:57:42 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4ccfcc30a813a8e1-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=dc6681c4f2e8aeab9156680e3d60a63361556189862 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-delayed_assertions.py-44-_log_failure: 0 : Assertion error occured in file test_api.py at line no 20, in test test_get_posts
+                    assertion.expect(response.body.userId == 3)
+
+        
+CORE-delayed_assertions.py-52-_report_failures: 
+Asserting all expectations: 
+	In test test_get_posts at line no 21
+
+CORE-delayed_assertions.py-53-_report_failures: Failed Expectations:1
+
+CORE-delayed_assertions.py-59-_report_failures: 
+Asserting all expectations: 
+	In test test_get_posts at line no 21
+
+Failed Expectations:1
+
+0 : Assertion error occured in file test_api.py at line no 20, in test test_get_posts
+                    assertion.expect(response.body.userId == 3)
+
+        
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 11:48:38 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=dc366e37d1625b583c60e8b80608a7dc41556192918; "
+ 'expires=Fri, 24-Apr-20 11:48:38 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 15:48:38 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4cd016ccac3acdb1-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=dc366e37d1625b583c60e8b80608a7dc41556192918 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-delayed_assertions.py-35-_log_failure: 1 : Assertion error occured in file test_api.py at line no 20, in test test_get_posts
+                    assertion.expect(response.body.userId == 3)
+
+                
+        
+CORE-delayed_assertions.py-43-_report_failures: 
+Asserting all expectations: 
+	In test test_get_posts at line no 21
+
+CORE-delayed_assertions.py-44-_report_failures: Failed Expectations:1
+
+CORE-delayed_assertions.py-58-_report_failures: 
+Asserting all expectations: 
+	In test test_get_posts at line no 21
+
+Failed Expectations:1
+
+1 : Assertion error occured in file test_api.py at line no 20, in test test_get_posts
+                    assertion.expect(response.body.userId == 3)
+
+                
+        
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 11:49:35 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d82a0d1fa31ea5992ecf4a73350964df51556192975; "
+ 'expires=Fri, 24-Apr-20 11:49:35 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 15:49:35 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4cd018328c103c17-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d82a0d1fa31ea5992ecf4a73350964df51556192975 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-delayed_assertions.py-35-_log_failure: 1 : Assertion error occured in file test_api.py at line no 20, in test test_get_posts
+                assertion.expect(response.body.userId == 3)
+
+            
+        
+CORE-delayed_assertions.py-43-_report_failures: 
+Asserting all expectations: 
+	In test test_get_posts at line no 21
+
+CORE-delayed_assertions.py-44-_report_failures: Failed Expectations:1
+
+CORE-delayed_assertions.py-58-_report_failures: 
+Asserting all expectations: 
+	In test test_get_posts at line no 21
+
+Failed Expectations:1
+
+1 : Assertion error occured in file test_api.py at line no 20, in test test_get_posts
+                assertion.expect(response.body.userId == 3)
+
+            
+        
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 11:50:08 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=d3f69eaa000e206e5d1ffec1d74d036891556193008; "
+ 'expires=Fri, 24-Apr-20 11:50:08 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 15:50:08 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4cd019000e6ab771-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=d3f69eaa000e206e5d1ffec1d74d036891556193008 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-delayed_assertions.py-35-_log_failure: 1 : Assertion error occured in file test_api.py at line no 20, in test test_get_posts
+                assertion.expect(response.body.userId == 3)
+
+            
+        
+CORE-delayed_assertions.py-43-_report_failures: 
+Asserting all expectations: 
+	In test test_get_posts at line no 21
+
+CORE-delayed_assertions.py-44-_report_failures: Failed Expectations:1
+
+CORE-delayed_assertions.py-58-_report_failures: 
+Asserting all expectations: 
+	In test test_get_posts at line no 21
+
+Failed Expectations:1
+
+1 : Assertion error occured in file test_api.py at line no 20, in test test_get_posts
+                assertion.expect(response.body.userId == 3)
+
+            
+        
+CORE-config_reader.py-19-__init__: using default config file: D:\Workspace\AutomationProject\core\..\config\default.yml
+CORE-config_reader.py-25-_load_config: Succesfully Loaded config
+CORE-config_reader.py-34-get: config returning api.request.timeout: 20
+CORE-response.py-26-__init__: API Response body : 
+	('{\n'
+ '  "userId": 1,\n'
+ '  "id": 1,\n'
+ '  "title": "sunt aut facere repellat provident occaecati excepturi optio '
+ 'reprehenderit",\n'
+ '  "body": "quia et suscipit\\nsuscipit recusandae consequuntur expedita et '
+ 'cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem '
+ 'sunt rem eveniet architecto"\n'
+ '}')
+CORE-response.py-27-__init__: API Response headers : 
+	("{'Date': 'Thu, 25 Apr 2019 11:56:09 GMT', 'Content-Type': 'application/json; "
+ "charset=utf-8', 'Content-Length': '292', 'Connection': 'keep-alive', "
+ "'Set-Cookie': '__cfduid=dc65366ff206e0b650f6ff9f6765e7c4b1556193369; "
+ 'expires=Fri, 24-Apr-20 11:56:09 GMT; path=/; domain=.typicode.com; '
+ "HttpOnly', 'X-Powered-By': 'Express', 'Vary': 'Origin, Accept-Encoding', "
+ "'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'public, "
+ "max-age=14400', 'Pragma': 'no-cache', 'Expires': 'Thu, 25 Apr 2019 15:56:09 "
+ "GMT', 'X-Content-Type-Options': 'nosniff', 'Etag': "
+ '\'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"\', \'Via\': \'1.1 vegur\', '
+ "'CF-Cache-Status': 'HIT', 'Accept-Ranges': 'bytes', 'Expect-CT': "
+ "'max-age=604800, "
+ 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\', '
+ "'Server': 'cloudflare', 'CF-RAY': '4cd021cf9f07a89f-CDG'}")
+CORE-response.py-28-__init__: API Response cookies : 
+	('<RequestsCookieJar[<Cookie '
+ '__cfduid=dc65366ff206e0b650f6ff9f6765e7c4b1556193369 for .typicode.com/>]>')
+CORE-response.py-29-__init__: API Response status code : 
+	'200'
+CORE-delayed_assertions.py-35-_log_failure: 1 : Assertion error occured in file test_api.py at line no 20, in test test_get_posts
+                assertion.expect(response.body.userId == 3)
+
+            
+        
+CORE-delayed_assertions.py-43-_report_failures: 
+Asserting all expectations: 
+	In test test_get_posts at line no 21
+
+CORE-delayed_assertions.py-44-_report_failures: Failed Expectations:1
+
+CORE-delayed_assertions.py-58-_report_failures: 
+Asserting all expectations: 
+	In test test_get_posts at line no 21
+
+Failed Expectations:1
+
+1 : Assertion error occured in file test_api.py at line no 20, in test test_get_posts
+                assertion.expect(response.body.userId == 3)
+
+            
+        

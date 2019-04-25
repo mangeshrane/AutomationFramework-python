@@ -1,54 +1,52 @@
 application:
     username: admin@phptravels.com
     password: demoadmin
-    
 webdriver:
     sauce:
-        username:
-        key:
-        browserName:
+        username: null
+        key: null
+        browserName: null
         caps:
-            browserName: chrome 
-            version: 66.0
-            platform: macOS 10.13
+            browserName: chrome
+            version: 66
+            platform: 'macOS 10.13'
     remote:
-        url: http://172.26.21.92:4444/wd/hub
+        url: 'http://172.26.21.92:4444/wd/hub'
         platform: Windows
-    # Available types: remote, local
     type: remote
     chrome:
-        driver: C:\chromedriver.exe
-        arguments: ["--disable-extensions", "--headless"]
+        driver: 'C:\chromedriver.exe'
+        arguments:
+            - '--disable-extensions'
+            - '--headless'
     firefox:
-        driver: C:\geckodriver.exe
+        driver: 'C:\geckodriver.exe'
         preferences:
-            browser.download.dir: H:\Downloads
-            browser.download.manager.showWhenStarting: False
+            browser.download.dir: 'H:\Downloads'
+            browser.download.manager.showWhenStarting: false
     wait:
         short: 10
         long: 30
     implicit_wait: 10
 tests:
-	mobile:
-	    scope: class
-	    no_reset: False
-	    full_reset: False
+    mobile:
+        scope: class
+        no_reset: false
+        full_reset: false
     browser:
-        # chrome, firefox if local
         name: firefox
         scope: class
 mobile:
-    android:
-        browserName: 
-        deviceName: 
-        platformName:
-        app:
-        orientation:
-        platformVersion: 
-        appActivity:
-        
-        
-        
+    remote:
+        url: null
+    capabilities:
+        browserName: null
+        deviceName: null
+        platformName: null
+        app: null
+        orientation: null
+        platformVersion: null
+        appActivity: null
 api:
     request:
         timeout: 20

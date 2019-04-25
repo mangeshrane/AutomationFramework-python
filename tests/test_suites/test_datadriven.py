@@ -13,12 +13,12 @@ from core.data_providers.json_reader import JSONReader
   
 class TestDatadriven(WebTest):
      
-#     # parametrize by specifying in tests
-#     @pytest.mark.parametrize("query, test", [('selenium',0), ('QTP',1)])
-#     def test_search_1(self, query, test):
-#         page = CreatePage.get(SearchPage, self.driver)
-#         page.search(query)
-#         assert self.driver.title.startswith(query), "title does not match"
+    # parametrize by specifying in tests
+    @pytest.mark.parametrize("query, test", [('selenium',0), ('QTP',1)])
+    def test_search_1(self, query, test):
+        page = CreatePage.get(SearchPage, self.driver)
+        page.search(query)
+        assert self.driver.title.startswith(query), "title does not match"
             
     # parametrize using csv file
     @pytest.mark.parametrize(*CSVReader.get_data("users.csv", fields=["first_name", "last_name"]))

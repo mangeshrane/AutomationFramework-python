@@ -8,6 +8,11 @@ import json
 from requests.models import Response as rp
 from collections import namedtuple
 from pprint import pformat
+import allure
+from core.logger import LOG
+
+ALLURE_RESP_TML = '<p> <h> <b> URL: </b> </h> {0}</p><p> <h> <b> Body<br> </b> </h> {1}</p><p> <h> <b> Headers<br> </b> </h> {2}</p><p> <h> <b> cookies<br> </b> </h> {3}</p><p> <h> <b> Status Code<br> </b> </h> {4}</p>'
+
 
 class Response(object):
     '''
@@ -18,10 +23,20 @@ class Response(object):
         '''
         Constructor
         '''
-        print("API Response body : \n\t" + pformat(str(response.text)))
-        print("API Response headers : \n\t" + pformat(str(response.headers)))
-        print("API Response cookies : \n\t" + pformat(str(response.cookies)))
-        print("API Response status code : \n\t" + pformat(str(response.status_code)))
+        LOG.info("API Response body : \n\t" + pformat(str(response.text)))
+        LOG.info("API Response headers : \n\t" + pformat(str(response.headers)))
+        LOG.info("API Response cookies : \n\t" + pformat(str(response.cookies)))
+        LOG.info("API Response status code : \n\t" + pformat(str(response.status_code)))
+        allure.attach(
+            ALLURE_RESP_TML.format(pformat(str(response.url)),
+                                   pformat(str(response.text)),
+                                   pformat(str(response.headers)),
+                                   pformat(str(response.cookies)),
+                                   pformat(str(response.status_code))
+                                   ), 
+            'Response',
+            allure.attachment_type.HTML)
+        
         if not isinstance(response, rp):
             raise ValueError
         self.url = response.url
@@ -34,10 +49,24 @@ class Response(object):
         self.reason = response.reason
         self.cookies = response.cookies
         self.headers = response.headers
+        
+    def expect(self, expr, msg=None):
+        '''
+        method for delayed assertions
+        parameters:
+        -----------
+        expr: condition to be checked
+        msg: [None] failure message
+        
+        usage:
+            expect(1 == 1, 'one is one')
+            response.body.expect(
+        '''
+        pass
 
     def assert_response_code(self, response_code):
-        assert self.status_code == response_code, "Response code does not match, expected {0} but found {1}".format(
-            response_code, self.status_code)
+        assert self.status_code == response_code, allure.attach('A text attacment in module scope finalizer', 'Response Code Assertion',
+                      allure.attachment_type.TEXT)
         return self
 
     def _json_object_hook(self, d):
@@ -45,24 +74,13 @@ class Response(object):
 
     def _json2obj(self, data):
         return json.loads(data, object_hook=self._json_object_hook)
-    
-    def assert_status_code(self, status_code):
-        assert status_code == self.status_code, "Status code doesn't match expected {} found {}".format(self.status_code, status_code)
-    
-    def assert_response_contains(self, text):
-        assert text in self.body, "Response body doesn't contains " + text
-    
-    def assert_response_header_contains(self, key, value):
-        assert self.headers.get(key, None) == value, "Response headers doesn't contains {}:{}".format(
-            key, value)
-
 
 class PyJSON(object):
     def __init__(self, d):
         if type(d) is str:
-            d = json.loads(d)
-
-        self.from_dict(d)
+            self.d = json.loads(d)
+        else:
+            self.d = self.from_dict(d)
 
     def from_dict(self, d):
         self.__dict__ = {}
@@ -78,6 +96,16 @@ class PyJSON(object):
                 value = value.to_dict()
             d[key] = value
         return d
+    
+    def get(self, key):
+        if "." in key:
+            tmp = self.d
+            keys = key.split(".")
+            for k in keys:
+                tmp = tmp[k]
+            return tmp
+        else:
+            return self.__dict__['d'][key]
 
     def __repr__(self):
         return str(self.to_dict())
@@ -87,3 +115,4 @@ class PyJSON(object):
 
     def __getitem__(self, key):
         return self.__dict__[key]
+
